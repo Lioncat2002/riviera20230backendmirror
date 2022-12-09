@@ -1,12 +1,20 @@
 import { Module } from '@nestjs/common';
-import { SequelizeModule } from '@nestjs/sequelize';
+import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { EventController } from './events/event/event.controller';
-
+import { EventModel } from './events/eventmodel.entity';
+import { EventsModule } from './events/events.module';
 @Module({
-  imports: [],
-  controllers: [AppController, EventController],
+  imports: [
+    TypeOrmModule.forRoot({
+      type: 'sqlite',
+      database: 'todo.sqlite',
+      entities: [EventModel],
+      synchronize: true,
+    }),
+    EventsModule,
+  ],
+  controllers: [AppController],
   providers: [AppService],
 })
 export class AppModule {}
