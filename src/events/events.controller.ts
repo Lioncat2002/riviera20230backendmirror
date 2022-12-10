@@ -14,7 +14,8 @@ export class EventsController {
         return this.eventService.findAll();
     }
     @Get(":event_type")
-    findAllByType(event_type: 'event' | 'proshow' | 'featured') {
+    findAllByType(event_type: 'cultural'|'sports'|'proshow'|'other') {
         return this.eventService.findAll(event_type);
     }
+
 }

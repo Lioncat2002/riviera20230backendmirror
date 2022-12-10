@@ -1,4 +1,4 @@
-import { IsNotEmpty, IsNumber, IsString } from "class-validator";
+import { IsNotEmpty, IsString, IsDateString, IsBooleanString} from "class-validator";
 
 export class EventDTO {
     @IsNotEmpty()
@@ -8,14 +8,17 @@ export class EventDTO {
     @IsString()
     organizing_body: string;
     @IsNotEmpty()
-    @IsNumber()
-    start: number;
+    @IsDateString()
+    start: Date;
     @IsNotEmpty()
-    @IsNumber()
-    end: number;
-    @IsNotEmpty()
+    @IsDateString()
+    end: Date;
     @IsString()
     loc?: string;
     @IsNotEmpty()
-    event_type: 'event' | 'proshow' | 'featured';
+    @IsString()
+    event_type: 'cultural'|'sports'|'proshow'|'other';
+    @IsNotEmpty()
+    @IsBooleanString()
+    featured: boolean;
 }

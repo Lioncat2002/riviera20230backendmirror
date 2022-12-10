@@ -1,6 +1,6 @@
 import {Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 
-@Entity()
+@Entity('events')
 export class EventModel{
     @PrimaryGeneratedColumn()
     id: number;
@@ -8,12 +8,14 @@ export class EventModel{
     name: string;
     @Column()
     organizing_body: string;
-    @Column()
-    start: number;
-    @Column()
-    end: number;
+    @Column({type: 'timestamptz'})
+    start: Date;
+    @Column({type: 'timestamptz'})
+    end: Date;
     @Column()
     loc?: string;
     @Column()
-    event_type: 'event'|'proshow'|'featured';
+    event_type: 'cultural'|'sports'|'proshow'|'other';
+    @Column()
+    featured: boolean
 }
