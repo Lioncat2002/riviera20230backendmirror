@@ -2,3 +2,5 @@ node_modules/
 dist/
 .vscode/
 .env
+nginx/cert/
+.DS_Store

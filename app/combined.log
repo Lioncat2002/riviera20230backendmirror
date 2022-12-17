@@ -1,0 +1,5738 @@
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 22:54:57'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 22:54:57'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 22:55:01'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 22:55:01'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 22:55:15'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 22:55:15'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 22:55:43'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 22:55:43'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 22:55:47'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 22:55:47'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 22:56:03'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 22:56:03'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 22:56:33'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 22:56:33'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 22:57:36'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 22:57:36'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 22:59:33'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 22:59:33'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 22:59:46'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 22:59:46'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 22:59:49'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 22:59:49'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 22:59:55'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 22:59:55'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:00:03'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 23:00:03'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:00:10'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 23:00:10'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:00:35'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 23:00:35'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:00:48'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 23:00:48'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:01:40'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 23:01:40'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:02:37'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 23:02:37'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:03:06'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 23:03:06'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-15 23:03:06'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:03:23'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 23:03:23'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-15 23:03:23'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:03:31'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 23:03:31'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-15 23:03:31'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:03:49'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 23:03:49'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-15 23:03:49'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:04:03'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 23:04:03'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:04:47'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 23:04:47'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:05:01'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:05:09'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 23:05:09'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:05:24'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 23:05:24'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-15 23:05:24'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:05:44'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 23:05:44'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-15 23:05:44'
+}
+{
+  message: 'Postgres connection successful!',
+  level: 'info',
+  timestamp: '2022-12-15 23:05:44'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:05:44'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 23:05:44'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-15 23:05:44'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-15 23:05:44'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:07:40'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 23:07:40'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:07:48'
+}
+{
+  message: 'postgresql://postgres:mysecretpassword@localhost:5432/riviera',
+  level: 'info',
+  timestamp: '2022-12-15 23:07:48'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:08:30'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-15 23:08:30' }
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-15 23:08:31'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-15 23:08:31'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:09:20'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-15 23:09:20' }
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-15 23:09:20'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-15 23:09:20'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:09:23'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-15 23:09:23' }
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-15 23:09:23'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-15 23:09:23'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:09:49'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-15 23:09:49' }
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-15 23:09:49'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-15 23:09:49'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:10:05'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-15 23:10:05' }
+{
+  message: 'Postgres connection failed: SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432',
+  level: 'error',
+  timestamp: '2022-12-15 23:10:05'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:10:19'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-15 23:10:19' }
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-15 23:10:19'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-15 23:10:19'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-15 23:37:12'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-15 23:37:12'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-15 23:37:12'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:37:12'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-15 23:37:12' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:37:12'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-15 23:37:12'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-15 23:37:12'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-15 23:39:11'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-15 23:39:11'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-15 23:39:11'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:39:11'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-15 23:39:11' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:39:11'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-15 23:39:11'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-15 23:39:11'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-15 23:40:42'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-15 23:40:42'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-15 23:40:42'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:40:42'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-15 23:40:42' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:40:42'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-15 23:40:42'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-15 23:40:42'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-15 23:41:39'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-15 23:41:39'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-15 23:41:39'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:41:39'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-15 23:41:39' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:41:39'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-15 23:41:39'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-15 23:41:39'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-15 23:41:43'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-15 23:41:43'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-15 23:41:43'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:41:43'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-15 23:41:43' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:41:43'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-15 23:41:43'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-15 23:41:43'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-15 23:42:13'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-15 23:42:13'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-15 23:42:13'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:42:13'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-15 23:42:13' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:42:13'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-15 23:42:13'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-15 23:42:13'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-15 23:42:31'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-15 23:42:31'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-15 23:42:31'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:42:31'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-15 23:42:31' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:42:31'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-15 23:42:32'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-15 23:42:32'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-15 23:44:23'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-15 23:44:23'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-15 23:44:23'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:44:23'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-15 23:44:23' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-15 23:44:23'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-15 23:44:23'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-15 23:44:23'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:14:03'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:14:45'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:14:45'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 20:14:45'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 20:14:45'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 20:14:45' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 20:14:45'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:14:48'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:14:48'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 20:14:48'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 20:14:48'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 20:14:48' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 20:14:48'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432',
+  level: 'error',
+  timestamp: '2022-12-16 20:14:48'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:14:59'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:14:59'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 20:14:59'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 20:14:59'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 20:14:59' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 20:14:59'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 20:14:59'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 20:14:59'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:16:35'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:16:35'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 20:16:35'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 20:16:35'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 20:16:35' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 20:16:36'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 20:16:36'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 20:16:36'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:16:38'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:16:38'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 20:16:38'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 20:16:38'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 20:16:38' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 20:16:38'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 20:16:38'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 20:16:38'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:27:25'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:27:42'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:27:52'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:27:52'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 20:27:52'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 20:27:52'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 20:27:52' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 20:27:52'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 20:27:53'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 20:27:53'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:28:06'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:28:06'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 20:28:06'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 20:28:06'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 20:28:06' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 20:28:06'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 20:28:06'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 20:28:06'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:15'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:15'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:15'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:15'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 20:29:15' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:15'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:15'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:15'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:22'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:22'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:22'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:22'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 20:29:22' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:22'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:22'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:22'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:47'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:47'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:47'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:47'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 20:29:47' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:47'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:47'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:47'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:49'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:49'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:49'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:49'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 20:29:49' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:49'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:49'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:49'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:58'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:58'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:58'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:58'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 20:29:58' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:58'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:58'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 20:29:58'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:41:48'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:41:48'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:41:48'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:41:49'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:41:49' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:41:49'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 21:41:49'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 21:41:49'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:43:41'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:43:41'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:43:41'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:43:41'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:43:41' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:43:41'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 21:43:41'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 21:43:41'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:44:55'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:44:55'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:44:55'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:44:55'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:44:55' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:44:55'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 21:44:56'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 21:44:56'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:45:46'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:45:46'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:45:46'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:45:46'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:45:46' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:45:46'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 21:45:46'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 21:45:46'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:46:25'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:46:25'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:46:25'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:46:25'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:46:25' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:46:25'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 21:46:25'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 21:46:25'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:47:56'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:47:56'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:47:56'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:47:56'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:47:56' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:47:56'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 21:47:56'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 21:47:56'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:49:23'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:49:23'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:49:23'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:49:23'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:49:23' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:49:23'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:49:50'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:49:50'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:49:50'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:49:50'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:49:50' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:49:50'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 21:49:50'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 21:49:50'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:50:49'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:50:49'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:50:49'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:50:49'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:50:49' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:50:49'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 21:50:50'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 21:50:50'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:50:58'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:50:58'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:50:58'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:50:58'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:50:58' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:50:58'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 21:50:58'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 21:50:58'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:51:39'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:51:39'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:51:39'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:51:39'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:51:39' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:51:39'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 21:51:39'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 21:51:39'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:51:44'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:51:44'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:51:44'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:51:44'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:51:44' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:51:44'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 21:51:44'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 21:51:44'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:53:52'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:53:52'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:53:52'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:53:52'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:53:52' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:53:52'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 21:53:52'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 21:53:52'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:54:11'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:54:11'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:54:11'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:54:11'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:54:11' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:54:11'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 21:54:11'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 21:54:11'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:55:36'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:55:36'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:55:36'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:55:36'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:55:36' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:55:36'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 21:55:36'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 21:55:36'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:56:00'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:56:00'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:56:00'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:56:00'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:56:00' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:56:00'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 21:56:00'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 21:56:00'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:56:19'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:56:19'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:56:19'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:56:19'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:56:19' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:56:19'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 21:56:19'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 21:56:19'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:56:31'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:56:31'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:56:31'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:56:31'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:56:31' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:56:31'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 21:56:31'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 21:56:31'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:57:16'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:57:16'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:57:16'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:57:16'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:57:16' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:57:16'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 21:57:16'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 21:57:16'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:03'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:03'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:03'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:03'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:58:03' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:03'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:03'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:03'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:16'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:16'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:16'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:16'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:58:16' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:16'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:16'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:16'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:17'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:17'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:17'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:17'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:58:17' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:17'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:17'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:17'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:36'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:36'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:36'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:36'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:58:36' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:36'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:36'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:36'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:38'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:38'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:38'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:38'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:58:38' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:38'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:38'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 21:58:38'
+}
+{ message: 'events', level: 'info', timestamp: '2022-12-16 21:58:46' }
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:59:20'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 21:59:20'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 21:59:20'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:59:20'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 21:59:20' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 21:59:20'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 21:59:20'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 21:59:20'
+}
+{
+  message: 'TABLE NAME =>events',
+  level: 'info',
+  timestamp: '2022-12-16 21:59:26'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:03'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:03'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:03'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:03'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:00:03' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:03'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:03'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:03'
+}
+{
+  message: 'TABLE NAME =>[object Object]',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:06'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:23'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:23'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:23'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:23'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:00:23' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:23'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:23'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:23'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:27'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:27'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:27'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:27'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:00:27' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:27'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:27'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:27'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:50'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:50'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:50'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:50'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:00:50' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:50'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:50'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:50'
+}
+{
+  message: 'TABLE NAME =>[object Object]',
+  level: 'info',
+  timestamp: '2022-12-16 22:00:56'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:01:35'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:01:35'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:01:35'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:01:35'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:01:35' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:01:35'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:01:35'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:01:35'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:01:37'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:01:37'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:01:37'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:01:37'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:01:37' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:01:37'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:01:37'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:01:37'
+}
+{
+  message: 'TABLE NAME =>undefined',
+  level: 'info',
+  timestamp: '2022-12-16 22:01:38'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:01:57'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:01:57'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:01:57'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:01:57'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:01:57' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:01:57'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:01:57'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:01:57'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:04:37'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:04:37'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:04:37'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:04:37'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:04:37' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:04:37'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:04:37'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:04:37'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:04:47'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:04:47'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:04:47'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:04:47'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:04:47' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:04:47'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:04:47'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:04:47'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:05:46'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:05:46'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:05:46'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:05:46'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:05:46' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:05:46'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:05:46'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:05:46'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:06:41'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:06:41'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:06:41'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:06:41'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:06:41' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:06:41'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:06:42'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:06:42'
+}
+{ message: {}, level: 'info', timestamp: '2022-12-16 22:06:42' }
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:06:43'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:06:43'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:06:43'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:06:43'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:06:43' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:06:43'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:06:43'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:06:43'
+}
+{ message: {}, level: 'info', timestamp: '2022-12-16 22:06:43' }
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:27'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:27'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:27'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:27'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:07:27' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:27'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:27'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:27'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:33'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:33'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:33'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:33'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:07:33' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:33'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:33'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:33'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:39'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:39'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:39'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:39'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:07:39' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:39'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:39'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:39'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:52'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:52'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:52'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:52'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:07:52' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:52'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:52'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:07:52'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:08:09'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:08:09'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:08:09'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:08:09'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:08:09' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:08:09'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:08:09'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:08:09'
+}
+{
+  message: 'LENGTH OF DB => [object Object]',
+  level: 'info',
+  timestamp: '2022-12-16 22:08:09'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:12:06'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:12:06'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:12:06'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:12:06'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:12:06' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:12:06'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:12:06'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:12:06'
+}
+{
+  message: 'LENGTH OF DB => [object Object]',
+  level: 'info',
+  timestamp: '2022-12-16 22:12:06'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:14'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:14'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:14'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:14'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:15:14' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:14'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:14'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:14'
+}
+{
+  message: 'LENGTH OF DB => [object Object]',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:14'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:35'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:35'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:35'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:35'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:15:35' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:35'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:35'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:35'
+}
+{
+  message: 'LENGTH OF DB => [object Object]',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:35'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:45'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:45'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:45'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:45'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:15:45' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:45'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:46'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:46'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:46'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:46'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:15:46' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:46'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:46'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:15:46'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:29:19'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:29:19'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:29:19'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:29:19'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:29:19' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:29:19'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:29:19'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:29:19'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:30:21'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:30:21'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:30:21'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:30:21'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:30:21' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:30:21'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:30:21'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:30:21'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:33:01'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:33:01'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:33:01'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:33:01'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:33:01' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:33:01'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:33:02'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:33:02'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:34:25'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:34:25'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:34:25'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:34:25'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:34:25' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:34:25'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:34:25'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:34:25'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:35:31'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:35:31'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:35:31'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:35:31'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:35:31' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:35:32'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:35:32'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:35:32'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:42:19'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:42:19'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:42:19'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:42:19'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:42:19' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:42:19'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:42:19'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:42:19'
+}
+{
+  message: 'Executing (default): SELECT "id", "name", "organizing_body", "start", "end", "loc", "event_type", "featured" FROM "public"."events" AS "events";',
+  level: 'info',
+  timestamp: '2022-12-16 22:42:50'
+}
+{
+  message: 'Executing (default): INSERT INTO "public"."events" ("id","name","organizing_body","start","end","loc","event_type","featured") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7) RETURNING "id","name","organizing_body","start","end","loc","event_type","featured";',
+  level: 'info',
+  timestamp: '2022-12-16 22:43:05'
+}
+{
+  message: 'Executing (default): INSERT INTO "public"."events" ("id","name","organizing_body","start","end","loc","event_type","featured") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7) RETURNING "id","name","organizing_body","start","end","loc","event_type","featured";',
+  level: 'info',
+  timestamp: '2022-12-16 22:43:14'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:45:02'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:45:02'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:45:02'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:45:02'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:45:02' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:45:02'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:45:02'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:45:02'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:45:09'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:45:09'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:45:09'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:45:09'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:45:09' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:45:09'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:45:09'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:45:09'
+}
+{
+  message: 'Executing (default): INSERT INTO "public"."events" ("id","name","organizing_body","start","end","loc","event_type","featured") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7) RETURNING "id","name","organizing_body","start","end","loc","event_type","featured";',
+  level: 'info',
+  timestamp: '2022-12-16 22:45:17'
+}
+{
+  message: 'Executing (default): INSERT INTO "public"."events" ("id","name","organizing_body","start","end","loc","event_type","featured") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7) RETURNING "id","name","organizing_body","start","end","loc","event_type","featured";',
+  level: 'info',
+  timestamp: '2022-12-16 22:45:21'
+}
+{
+  message: 'Executing (default): INSERT INTO "public"."events" ("id","name","organizing_body","start","end","loc","event_type","featured") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7) RETURNING "id","name","organizing_body","start","end","loc","event_type","featured";',
+  level: 'info',
+  timestamp: '2022-12-16 22:45:22'
+}
+{
+  message: 'Executing (default): SELECT "id", "name", "organizing_body", "start", "end", "loc", "event_type", "featured" FROM "public"."events" AS "events";',
+  level: 'info',
+  timestamp: '2022-12-16 22:45:24'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:46:50'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:46:50'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:46:50'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:46:50'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:46:50' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:46:50'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:46:50'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:46:50'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:46:54'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:46:54'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:46:54'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:46:54'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:46:54' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:46:54'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:46:54'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:46:54'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:47:35'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:47:35'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:47:35'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:47:35'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:47:35' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:47:35'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:47:35'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:47:35'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:47:41'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:47:41'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:47:41'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:47:41'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:47:41' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:47:41'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:47:41'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:47:41'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:47:51'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-16 22:47:51'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-16 22:47:51'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:47:51'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-16 22:47:51' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-16 22:47:51'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-16 22:47:52'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-16 22:47:52'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 00:52:04'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 00:52:04'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 00:52:04'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 00:52:04'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-17 00:52:04' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 00:52:04'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 00:52:04'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 00:52:04'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 00:52:07'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 00:52:07'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 00:52:07'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 00:52:07'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-17 00:52:07' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 00:52:07'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 00:52:07'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 00:52:07'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 00:52:18'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 00:52:18'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 00:52:18'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 00:52:18'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-17 00:52:18' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 00:52:18'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432',
+  level: 'error',
+  timestamp: '2022-12-17 00:52:18'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 00:52:51'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 00:52:51'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 00:52:51'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 00:52:51'
+}
+{ message: undefined, level: 'info', timestamp: '2022-12-17 00:52:51' }
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 00:52:51'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 00:57:48'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 00:57:48'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 00:57:48'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 00:57:48'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 00:57:48'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 00:57:59'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 00:57:59'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 00:57:59'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 00:57:59'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 00:57:59'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 00:57:59'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 00:57:59'
+}
+{
+  message: 'Executing (default): SELECT "id", "name", "organizing_body", "start", "end", "loc", "event_type", "featured" FROM "public"."events" AS "events";',
+  level: 'info',
+  timestamp: '2022-12-17 00:58:18'
+}
+{
+  message: 'Error occurred on GET /events =>SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432',
+  level: 'error',
+  timestamp: '2022-12-17 00:59:01'
+}
+{
+  message: 'Executing (default): SELECT "id", "name", "organizing_body", "start", "end", "loc", "event_type", "featured" FROM "public"."events" AS "events";',
+  level: 'info',
+  timestamp: '2022-12-17 00:59:15'
+}
+{
+  message: 'Executing (default): SELECT "id", "name", "organizing_body", "start", "end", "loc", "event_type", "featured" FROM "public"."events" AS "events";',
+  level: 'info',
+  timestamp: '2022-12-17 00:59:16'
+}
+{
+  message: 'Executing (default): SELECT "id", "name", "organizing_body", "start", "end", "loc", "event_type", "featured" FROM "public"."events" AS "events";',
+  level: 'info',
+  timestamp: '2022-12-17 00:59:16'
+}
+{
+  message: 'Error occurred on GET /events =>SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432',
+  level: 'error',
+  timestamp: '2022-12-17 00:59:28'
+}
+{
+  message: 'Executing (default): SELECT "id", "name", "organizing_body", "start", "end", "loc", "event_type", "featured" FROM "public"."events" AS "events";',
+  level: 'info',
+  timestamp: '2022-12-17 00:59:38'
+}
+{
+  message: 'Error occurred on POST /events =>SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432',
+  level: 'error',
+  timestamp: '2022-12-17 00:59:46'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:00:47'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:00:47'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 01:00:47'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:00:47'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:00:47'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 01:00:47'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 01:00:47'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:01:06'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:01:06'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 01:01:06'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:01:06'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:01:06'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 01:01:06'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 01:01:06'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:01:13'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:01:13'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 01:01:13'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:01:13'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:01:13'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 01:01:13'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 01:01:13'
+}
+{
+  message: 'Error occurred on POST /events =>SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432',
+  level: 'error',
+  timestamp: '2022-12-17 01:01:31'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:01:57'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:01:57'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 01:01:57'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:01:57'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:01:57'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432',
+  level: 'error',
+  timestamp: '2022-12-17 01:01:57'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:02:04'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:02:04'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 01:02:04'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:02:04'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:02:04'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 01:02:04'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 01:02:04'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:10'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:10'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:10'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:10'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:10'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:10'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:10'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:15'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:15'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:15'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:15'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:15'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:15'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:15'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:22'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:22'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:22'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:22'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:22'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:22'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:22'
+}
+{
+  message: 'Executing (default): SELECT "id", "name", "organizing_body", "start", "end", "loc", "event_type", "featured" FROM "public"."events" AS "events";',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:25'
+}
+{
+  message: 'Error occurred on GET /events =>SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432',
+  level: 'error',
+  timestamp: '2022-12-17 01:03:33'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:47'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:47'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:47'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:47'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:47'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432',
+  level: 'error',
+  timestamp: '2022-12-17 01:03:47'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:50'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:50'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:50'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:50'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:03:50'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:09'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:09'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:09'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:09'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:09'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432',
+  level: 'error',
+  timestamp: '2022-12-17 01:04:09'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:16'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:16'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:16'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:16'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:16'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432',
+  level: 'error',
+  timestamp: '2022-12-17 01:04:16'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:19'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:19'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:19'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:19'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:19'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:23'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:23'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:23'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:23'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:23'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:31'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:31'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:31'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:31'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:31'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:31'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 01:04:31'
+}
+{
+  message: 'Executing (default): SELECT "id", "name", "organizing_body", "start", "end", "loc", "event_type", "featured" FROM "public"."events" AS "events";',
+  level: 'info',
+  timestamp: '2022-12-17 01:05:01'
+}
+{
+  message: 'Error occurred on GET /events =>SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:5432',
+  level: 'error',
+  timestamp: '2022-12-17 01:05:12'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:05:32'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:05:32'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 01:05:32'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:05:32'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:05:32'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 01:05:33'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 01:05:33'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:07:58'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:07:58'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 01:07:58'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:07:58'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:07:59'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 01:07:59'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 01:07:59'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:09:05'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:09:05'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 01:09:05'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:09:05'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:09:05'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 01:09:05'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 01:09:05'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:18:51'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 01:18:51'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 01:18:51'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:18:51'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 01:18:51'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 01:18:51'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 01:18:51'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:33:08'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:33:08'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:33:08'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:33:08'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:33:08'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:33:08'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:33:08'
+}
+{
+  message: 'Executing (default): SELECT "id", "name", "organizing_body", "start", "end", "loc", "event_type", "featured" FROM "public"."events" AS "events";',
+  level: 'info',
+  timestamp: '2022-12-17 09:33:25'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:35:07'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:35:07'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:35:07'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:35:07'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:35:07'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:35:07'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:35:07'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:35:21'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:35:21'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:35:21'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:35:21'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:35:21'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:35:21'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:35:21'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:35:48'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:35:48'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:35:48'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:35:48'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:35:48'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:35:48'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:35:48'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:04'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:04'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:04'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:04'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:04'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:04'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:04'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:33'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:33'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:33'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:33'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:33'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:33'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:33'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:45'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:45'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:45'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:45'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:45'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:45'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:45'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:53'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:53'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:53'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:53'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:53'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:53'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:38:53'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:41:10'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:41:10'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:41:10'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:41:10'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:41:10'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:41:10'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:41:10'
+}
+{
+  message: 'Executing (default): SELECT "id", "name", "organizing_body", "start", "end", "loc", "event_type", "featured" FROM "public"."events" AS "events";',
+  level: 'info',
+  timestamp: '2022-12-17 09:41:18'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:42:22'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:42:22'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:42:22'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:42:22'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:42:22'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:42:22'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:42:22'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:43:08'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:43:08'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:43:08'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:43:08'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:43:08'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:43:08'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:43:08'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:43:58'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:43:58'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:43:58'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:43:58'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:43:58'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:43:59'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:43:59'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:44:11'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:44:11'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:44:11'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:44:11'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:44:11'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:44:11'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:44:11'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:44:31'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:44:31'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:44:31'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:44:31'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:44:31'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:44:31'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:44:31'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:44:42'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:44:42'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:44:42'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:44:42'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:44:42'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:44:42'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:44:42'
+}
+{
+  message: 'Executing (default): SELECT "id", "name", "organizing_body", "start", "end", "loc", "event_type", "featured" FROM "public"."events" AS "events";',
+  level: 'info',
+  timestamp: '2022-12-17 09:44:44'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:03'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:03'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:03'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:03'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:03'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:03'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:03'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:15'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:15'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:15'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:15'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:15'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:15'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:15'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:19'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:19'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:19'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:19'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:19'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:20'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:20'
+}
+{
+  message: 'Executing (default): SELECT "id", "name", "organizing_body", "start", "end", "loc", "event_type", "featured" FROM "public"."events" AS "events";',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:24'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:48'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:48'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:48'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:48'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:48'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:48'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:45:48'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:00'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:00'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:00'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:00'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:00'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:00'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:00'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:08'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:08'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:08'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:08'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:08'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:09'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:09'
+}
+{
+  message: 'Executing (default): SELECT "id", "name", "organizing_body", "start", "end", "loc", "event_type", "featured" FROM "public"."events" AS "events";',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:26'
+}
+{
+  message: 'Executing (default): INSERT INTO "public"."events" ("id","name","organizing_body","start","end","loc","event_type","featured") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7) RETURNING "id","name","organizing_body","start","end","loc","event_type","featured";',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:35'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:51'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:51'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:51'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:51'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:51'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:51'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:51'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:54'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:54'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:54'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:54'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:54'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:55'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:46:55'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:48:10'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:48:10'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:48:10'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:48:10'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:48:10'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:48:10'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:48:10'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:48:39'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:48:39'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:48:39'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:48:39'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:48:39'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:48:39'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:48:39'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:03'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:03'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:03'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:03'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:03'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:03'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:03'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:27'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:27'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:27'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:27'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:27'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:27'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:27'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:29'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:29'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:29'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:29'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:29'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:29'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:29'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:49'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:49'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:49'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:49'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:49'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:49'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:49'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:52'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:52'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:52'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:52'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:52'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:52'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:52'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:55'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:55'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:55'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:55'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:55'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:55'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:55'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:57'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:57'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:57'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:57'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:57'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:57'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:49:57'
+}
+{
+  message: 'Executing (default): SELECT "id", "name", "organizing_body", "start", "end", "loc", "event_type", "featured" FROM "public"."events" AS "events";',
+  level: 'info',
+  timestamp: '2022-12-17 09:50:29'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:51:31'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:51:31'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:51:31'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:51:31'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:51:31'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:51:31'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:51:31'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:52:18'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:52:18'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:52:18'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:52:18'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:52:18'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:52:18'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:52:18'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:52:37'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:52:37'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:52:37'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:52:37'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:52:37'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:52:38'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:52:38'
+}
+{
+  message: 'Executing (default): INSERT INTO "public"."events" ("id","name","organizing_body","start","end","loc","event_type","featured") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7) RETURNING "id","name","organizing_body","start","end","loc","event_type","featured";',
+  level: 'info',
+  timestamp: '2022-12-17 09:52:46'
+}
+{
+  message: 'Executing (default): SELECT "id", "name", "organizing_body", "start", "end", "loc", "event_type", "featured" FROM "public"."events" AS "events";',
+  level: 'info',
+  timestamp: '2022-12-17 09:52:55'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:53:09'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 09:53:09'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 09:53:09'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:53:09'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 09:53:09'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 09:53:09'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 09:53:09'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 11:01:41'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 11:01:41'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 11:01:41'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 11:01:41'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 11:01:41'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 11:01:42'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 11:01:42'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 11:01:55'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 11:01:55'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 11:01:55'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 11:01:55'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 11:01:55'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 11:01:55'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 11:01:55'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 11:02:40'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 11:02:40'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 11:02:40'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 11:02:40'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 11:02:40'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 11:02:40'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 11:02:40'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 11:26:34'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 11:26:34'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 11:26:34'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 11:26:34'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 11:26:34'
+}
+{
+  message: 'Error: listen EADDRINUSE: address already in use :::3000',
+  level: 'error',
+  timestamp: '2022-12-17 11:26:34'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 11:26:35'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 11:26:35'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-17 11:26:52'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-17 11:26:52'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-17 11:26:52'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 11:26:52'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-17 11:26:52'
+}
+{
+  message: 'Executing (default): SELECT 1+1 AS result',
+  level: 'info',
+  timestamp: '2022-12-17 11:26:52'
+}
+{
+  message: 'Postgres connection successful',
+  level: 'info',
+  timestamp: '2022-12-17 11:26:52'
+}
+{
+  message: 'Executing (default): SELECT "id", "name", "organizing_body", "start", "end", "loc", "event_type", "featured" FROM "public"."events" AS "events";',
+  level: 'info',
+  timestamp: '2022-12-17 11:27:02'
+}
