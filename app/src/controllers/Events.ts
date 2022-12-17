@@ -31,7 +31,7 @@ class Events {
     req: Request,
     res: Response
   ): Promise<Response | void> {
-    return res.status(200).send("Testing");
+    return res.status(200).json(await EventsModel.findAll({where: req.body}))
   }
 
 }
