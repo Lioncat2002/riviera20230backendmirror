@@ -4,7 +4,6 @@ import Log from "../middlewares/Log";
 import dotenv from "dotenv";
 
 dotenv.config();
-console.log(process.env.DB_USER)
 
 export class Database {
   public static async init(): Promise<void> {
