@@ -27,31 +27,13 @@ const schema = {
  * @openapi
  * /:
  *   get:
- *     description: Welcome to swagger-jsdoc!
+ *     description: Returns a list of all the events
  *     responses:
  *       200:
- *         description: Returns a mysterious string.
+ *         description: A List containing all upcoming events
  */
 router.get('/', Events.events_list);
-/**
- * @openapi
- * /:
- *   get:
- *     description: Welcome to swagger-jsdoc!
- *     responses:
- *       200:
- *         description: Returns a mysterious string.
- */
 router.post('/', Validate.body(schema.event), Events.event_import);
-/**
- * @openapi
- * /:
- *   get:
- *     description: Welcome to swagger-jsdoc!
- *     responses:
- *       200:
- *         description: Returns a mysterious string.
- */
 router.post('/search', Validate.body(schema.events_search), Events.events_search);
 
 

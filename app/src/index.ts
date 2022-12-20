@@ -1,4 +1,4 @@
 import App from "./providers/App";
 
-//App.loadDatabase();
+App.loadDatabase();
 App.loadServer();

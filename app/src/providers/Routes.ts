@@ -11,7 +11,7 @@ const options = {
       version: '1.0.0',
     },
   },
-  apis: ['../routes/events.ts'], // files containing annotations as above
+  apis: ['**/*.ts'], // files containing annotations as above
 };
 const openapiSpecification = swaggerJsdoc(options);
 class Routes {
