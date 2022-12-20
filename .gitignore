@@ -4,3 +4,4 @@ dist/
 .env
 nginx/cert/
 .DS_Store
+*.log
