@@ -123,3 +123,113 @@
   level: 'error',
   timestamp: '2022-12-17 11:26:34'
 }
+{
+  message: 'Postgres connection failed: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:5432',
+  level: 'error',
+  timestamp: '2022-12-20 08:16:38'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:5432',
+  level: 'error',
+  timestamp: '2022-12-20 08:24:26'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:5432',
+  level: 'error',
+  timestamp: '2022-12-20 08:31:21'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionError: Ident authentication failed for user "kittycat"',
+  level: 'error',
+  timestamp: '2022-12-20 08:34:56'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionError: Ident authentication failed for user "kittycat"',
+  level: 'error',
+  timestamp: '2022-12-20 08:48:04'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionError: Ident authentication failed for user "kittycat"',
+  level: 'error',
+  timestamp: '2022-12-20 08:54:09'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionError: Ident authentication failed for user "kittycat"',
+  level: 'error',
+  timestamp: '2022-12-20 08:54:41'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionError: Ident authentication failed for user "kittycat"',
+  level: 'error',
+  timestamp: '2022-12-20 08:57:44'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionError: Ident authentication failed for user "kittycat"',
+  level: 'error',
+  timestamp: '2022-12-20 08:58:46'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionError: Ident authentication failed for user "kittycat"',
+  level: 'error',
+  timestamp: '2022-12-20 09:00:45'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionError: Ident authentication failed for user "kittycat"',
+  level: 'error',
+  timestamp: '2022-12-20 09:01:52'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionError: Ident authentication failed for user "kittycat"',
+  level: 'error',
+  timestamp: '2022-12-20 20:40:19'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionError: Ident authentication failed for user "kittycat"',
+  level: 'error',
+  timestamp: '2022-12-20 20:45:25'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionError: Ident authentication failed for user "kittycat"',
+  level: 'error',
+  timestamp: '2022-12-20 20:49:06'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionError: Ident authentication failed for user "kittycat"',
+  level: 'error',
+  timestamp: '2022-12-20 20:49:21'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionError: Ident authentication failed for user "kittycat"',
+  level: 'error',
+  timestamp: '2022-12-20 20:49:45'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionError: Ident authentication failed for user "kittycat"',
+  level: 'error',
+  timestamp: '2022-12-20 20:49:56'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionError: Ident authentication failed for user "kittycat"',
+  level: 'error',
+  timestamp: '2022-12-20 20:50:34'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionError: Ident authentication failed for user "postgres"',
+  level: 'error',
+  timestamp: '2022-12-20 20:50:59'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionError: Ident authentication failed for user "postgres"',
+  level: 'error',
+  timestamp: '2022-12-20 20:51:21'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionError: Ident authentication failed for user "postgres"',
+  level: 'error',
+  timestamp: '2022-12-20 20:53:25'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionError: Ident authentication failed for user "postgres"',
+  level: 'error',
+  timestamp: '2022-12-20 20:55:05'
+}

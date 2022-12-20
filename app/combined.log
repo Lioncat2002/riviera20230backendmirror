@@ -5736,3 +5736,678 @@
   level: 'info',
   timestamp: '2022-12-17 11:27:02'
 }
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 08:16:38'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 08:24:20'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 08:24:26'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 08:31:21'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 08:34:56'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 08:34:56'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 08:34:56'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 08:34:56'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 08:34:56'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionError: Ident authentication failed for user "kittycat"',
+  level: 'error',
+  timestamp: '2022-12-20 08:34:56'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 08:48:04'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 08:48:04'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 08:48:04'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 08:48:04'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 08:48:04'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 08:54:09'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 08:54:09'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 08:54:09'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 08:54:09'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 08:54:09'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionError: Ident authentication failed for user "kittycat"',
+  level: 'error',
+  timestamp: '2022-12-20 08:54:09'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 08:54:41'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 08:54:41'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 08:54:41'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 08:54:41'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 08:54:41'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionError: Ident authentication failed for user "kittycat"',
+  level: 'error',
+  timestamp: '2022-12-20 08:54:41'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 08:57:44'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 08:57:44'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 08:57:44'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 08:57:44'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 08:57:44'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 08:58:46'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 08:58:46'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 08:58:46'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 08:58:46'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 08:58:46'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 09:00:45'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 09:00:45'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 09:00:45'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 09:00:45'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 09:00:45'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 09:01:52'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 09:01:52'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 09:01:52'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 09:01:52'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 09:01:52'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:40:19'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:40:19'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 20:40:19'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:40:19'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:40:19'
+}
+{
+  message: 'Postgres connection failed: SequelizeConnectionError: Ident authentication failed for user "kittycat"',
+  level: 'error',
+  timestamp: '2022-12-20 20:40:19'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:40:50'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:40:50'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 20:40:50'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:40:50'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:41:45'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:41:45'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 20:41:45'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:41:45'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:41:47'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:41:47'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 20:41:47'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:41:47'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:41:59'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:41:59'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 20:41:59'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:41:59'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:42:04'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:42:04'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 20:42:04'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:42:04'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:42:10'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:42:10'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 20:42:10'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:42:10'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:42:12'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:42:12'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 20:42:12'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:42:12'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:42:30'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:42:30'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 20:42:30'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:42:30'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:45:25'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:45:25'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 20:45:25'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:45:25'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:45:25'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:49:06'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:49:06'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 20:49:06'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:49:06'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:49:06'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:49:21'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:49:21'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 20:49:21'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:49:21'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:49:21'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:49:44'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:49:45'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 20:49:45'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:49:45'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:49:45'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:49:56'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:49:56'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 20:49:56'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:49:56'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:49:56'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:50:33'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:50:33'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 20:50:33'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:50:34'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:50:34'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:50:59'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:50:59'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 20:50:59'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:50:59'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:50:59'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:51:21'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:51:21'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 20:51:21'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:51:21'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:51:21'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:53:25'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:53:25'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 20:53:25'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:53:25'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:53:25'
+}
+{
+  message: 'Initializing CORS middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:55:05'
+}
+{
+  message: 'Initializing HTTP middleware',
+  level: 'info',
+  timestamp: '2022-12-20 20:55:05'
+}
+{
+  message: 'Initializing routes',
+  level: 'info',
+  timestamp: '2022-12-20 20:55:05'
+}
+{
+  message: 'Database :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:55:05'
+}
+{
+  message: 'Server :: Loading...',
+  level: 'info',
+  timestamp: '2022-12-20 20:55:05'
+}
