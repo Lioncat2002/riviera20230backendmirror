@@ -33,7 +33,7 @@ const schema = {
  *         description: A List containing all upcoming events
  */
 router.get('/', Events.events_list);
-router.post('/', Validate.body(schema.event), Events.event_import);
+router.post('/:key', Validate.body(schema.event), Events.event_import);
 router.post('/search', Validate.body(schema.events_search), Events.events_search);
 
 

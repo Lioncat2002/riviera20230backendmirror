@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import Log from "../middlewares/Log";
 import { EventsModel } from "../models/event.model";
-
+import sha256 from "sha256";
 class Events {
   public static async events_list(
     req: Request,
@@ -20,7 +20,12 @@ class Events {
     res: Response
   ): Promise<Response | void> {
     try {
-      return res.status(200).json(await EventsModel.create(req.body));
+      if (sha256(req.params.key) === process.env.API_KEY) {
+        return res.status(200).json(await EventsModel.create(req.body));
+      }
+      else {
+        return res.status(401).json({ error: "Invalid key" });
+      }
     }
     catch(err) {
       Log.error("Error occurred on POST /events => " + err);
@@ -31,7 +36,7 @@ class Events {
     req: Request,
     res: Response
   ): Promise<Response | void> {
-    return res.status(200).json(await EventsModel.findAll({where: req.body}))
+      return res.status(200).json(await EventsModel.findAll({ where: req.body }))  
   }
 
 }
