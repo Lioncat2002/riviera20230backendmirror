@@ -20,7 +20,7 @@ class Events {
     res: Response
   ): Promise<Response | void> {
     try {
-      if (sha256(req.params.key) === "18835be78f1f42ea1abe84951f3d2d2459499c7d5ed7134f9f86d25fc6a0aadf") {
+      if (sha256(req.params.key) === process.env.API_KEY) {
         return res.status(200).json(await EventsModel.create(req.body));
       }
       else {
