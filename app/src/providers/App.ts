@@ -10,9 +10,9 @@ class App {
     Log.info('Server :: Loading...');
     Express.init();
   }
-  public async loadDatabase(): Promise<void> {
+  public loadDatabase(): void {
     Log.info('Database :: Loading...');
-    await Database.init();
+    Database.init();
   }
 }
 
