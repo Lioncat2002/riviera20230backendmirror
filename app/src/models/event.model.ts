@@ -1,54 +1,20 @@
-import { DataTypes } from "sequelize";
-import {sequelize} from "../providers/Database";
+import IEvents from "../interfaces/events";
+import mongoose from "../providers/Database";
 
 
-export const EventsModel = sequelize.define('events', {
-    id: {
-      autoIncrement: true,
-      autoIncrementIdentity: true,
-      type: DataTypes.BIGINT,
-      allowNull: false,
-      primaryKey: true
-    },
-    name: {
-      type: DataTypes.TEXT,
-      allowNull: false
-    },
-    organizing_body: {
-      type: DataTypes.TEXT,
-      allowNull: false
-    },
-    start: {
-      type: DataTypes.DATE,
-      allowNull: false
-    },
-    end: {
-      type: DataTypes.DATE,
-      allowNull: false
-    },
-    loc: {
-      type: DataTypes.TEXT,
-      allowNull: true
-    },
-    event_type: {
-      type: DataTypes.TEXT,
-      allowNull: false
-    },
-    featured: {
-      type: DataTypes.BOOLEAN,
-      allowNull: false
-    }
-  }, {
-    tableName: 'events',
-    schema: 'public',
-    timestamps: false,
-    indexes: [
-      {
-        name: "events_pkey",
-        unique: true,
-        fields: [
-          { name: "id" },
-        ]
-      },
-    ]
-  });
+export const EventsSchema = new mongoose.Schema<IEvents>({
+  name: { type: String},
+  organizing_body: { type: String},
+  start: {type: Date},
+  end: {type: Date},
+  loc: { type: String },
+  event_type: { type: String},
+  featured: {type: Boolean}
+}, {
+  timestamps: false,
+  versionKey: false
+});
+
+const EventsModel = mongoose.model<IEvents>("Events", EventsSchema);
+
+export default EventsModel;
