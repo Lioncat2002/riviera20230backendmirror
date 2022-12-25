@@ -25,7 +25,7 @@ const schema = {
 };
 /**
  * @openapi
- * /:
+ * /events:
  *   get:
  *     description: Returns a list of all the events
  *     responses:
@@ -35,7 +35,7 @@ const schema = {
 router.get('/', Events.events_list);
 /**
  * @openapi
- * /:key:
+ * /events/:key:
  *   put:
  *     description: Creates a new event (needs an API key)
  *     responses:
@@ -45,7 +45,7 @@ router.get('/', Events.events_list);
 router.put('/:key', Validate.body(schema.event), Events.event_import);
 /**
  * @openapi
- * /search:
+ * /events/search:
  *   post:
  *     description: Used for searching events
  *     responses:

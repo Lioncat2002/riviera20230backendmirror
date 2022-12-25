@@ -1,6 +1,7 @@
 import { Application } from "express";
 import Log from "../middlewares/Log";
 import EventRoute from "../routes/events"
+import router from "../routes/hashtagsearch";
 import swaggerJsdoc from "swagger-jsdoc";
 import swaggerUi from "swagger-ui-express";
 const options = {
@@ -18,6 +19,7 @@ class Routes {
   public mount(_app: Application): Application {
     Log.info('Initializing routes');
     _app.use('/events', EventRoute);
+    _app.use("/hashtag",router)
     _app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(openapiSpecification));
     return _app;
   }
