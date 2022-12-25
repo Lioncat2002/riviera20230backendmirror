@@ -33,7 +33,25 @@ const schema = {
  *         description: A List containing all upcoming events
  */
 router.get('/', Events.events_list);
+/**
+ * @openapi
+ * /:key:
+ *   put:
+ *     description: Creates a new event (needs an API key)
+ *     responses:
+ *       201:
+ *         description: Returns the newly created event
+ */
 router.put('/:key', Validate.body(schema.event), Events.event_import);
+/**
+ * @openapi
+ * /search:
+ *   post:
+ *     description: Used for searching events
+ *     responses:
+ *       200:
+ *         description: returns the list of events that match the search query
+ */
 router.post('/search', Validate.body(schema.events_search), Events.events_search);
 
 
