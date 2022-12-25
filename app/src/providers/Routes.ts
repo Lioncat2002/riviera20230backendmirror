@@ -20,7 +20,7 @@ class Routes {
     Log.info('Initializing routes');
     _app.use('/events', EventRoute);
     _app.use("/hashtag",router)
-    _app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(openapiSpecification));
+    _app.use('/', swaggerUi.serve, swaggerUi.setup(openapiSpecification));
     return _app;
   }
 }
