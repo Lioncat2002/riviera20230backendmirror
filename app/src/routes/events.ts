@@ -9,6 +9,7 @@ const schema = {
     event: Joi.object({
         name: Joi.string().required(),
         organizing_body: Joi.string().required(),
+        image_url: Joi.string().allow(""),
         start: Joi.date().required(),
         end: Joi.date().required(),
         loc: Joi.string().allow(""),
@@ -16,6 +17,9 @@ const schema = {
         featured: Joi.boolean().required()
     }),
     events_search: Joi.object({
+        _id: Joi.string(),
+        name: Joi.string(),
+        organizing_body: Joi.string(),
         start: Joi.date(),
         end: Joi.date(),
         loc: Joi.string(),
@@ -34,7 +38,7 @@ const schema = {
  */
 router.get('/', Events.events_list);
 router.put('/:key', Validate.body(schema.event), Events.event_import);
-router.post('/search', Validate.body(schema.events_search), Events.events_search);
+router.get('/search', Validate.query(schema.events_search), Events.events_search);
 
 
 export default router;
