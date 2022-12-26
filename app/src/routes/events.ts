@@ -16,6 +16,9 @@ const schema = {
         featured: Joi.boolean().required()
     }),
     events_search: Joi.object({
+        _id: Joi.string(),
+        name: Joi.string(),
+        organizing_body: Joi.string(),
         start: Joi.date(),
         end: Joi.date(),
         loc: Joi.string(),
