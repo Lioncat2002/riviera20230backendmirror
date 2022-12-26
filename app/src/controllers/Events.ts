@@ -46,7 +46,7 @@ class Events {
     req: Request,
     res: Response
   ): Promise<Response | void> {
-      return res.status(200).json(await EventsModel.find(req.body));  
+      return res.status(200).json(await EventsModel.find(req.query));  
   }
 
 }

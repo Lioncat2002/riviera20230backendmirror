@@ -34,7 +34,7 @@ const schema = {
  */
 router.get('/', Events.events_list);
 router.put('/:key', Validate.body(schema.event), Events.event_import);
-router.post('/search', Validate.body(schema.events_search), Events.events_search);
+router.get('/search', Validate.query(schema.events_search), Events.events_search);
 
 
 export default router;
