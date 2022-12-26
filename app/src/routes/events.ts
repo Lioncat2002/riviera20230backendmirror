@@ -9,6 +9,7 @@ const schema = {
     event: Joi.object({
         name: Joi.string().required(),
         organizing_body: Joi.string().required(),
+        image_url: Joi.string().allow(""),
         start: Joi.date().required(),
         end: Joi.date().required(),
         loc: Joi.string().allow(""),
