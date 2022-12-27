@@ -5,6 +5,7 @@ import mongoose from "../providers/Database";
 export const EventsSchema = new mongoose.Schema<IEvents>({
   name: { type: String},
   organizing_body: { type: String},
+  image_url: {type: String},
   start: {type: Date},
   end: {type: Date},
   loc: { type: String },
