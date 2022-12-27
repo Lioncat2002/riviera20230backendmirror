@@ -1,12 +1,20 @@
 import axios from "axios";
 import { Router } from "express";
+import { createClient } from "redis";
 
 
 import Log from "../middlewares/Log";
 
 const router = Router();
 const BASE_URL = "https://graph.facebook.com/ig_hashtag_search";
+let redis_cache = createClient();
+(async () => {
+    redis_cache = createClient();
 
+    redis_cache.on("error", (error) => console.error(`Error : ${error}`));
+
+    await redis_cache.connect();
+})();
 
 var access_token = process.env.ACCESS_TOKEN;
 var user_id = process.env.USER_ID;
@@ -30,13 +38,20 @@ async function geturl() {
 }
 
 router.get('/', async (req, res) => {
+    let cached_data = await redis_cache.get("hashtag");
+    if (!cached_data) {
+        let url = await geturl();
+        axios.get(url, {
+            headers: { "Accept-Encoding": "gzip,deflate,compress" }
+        }).then(async (response) => {
+            await redis_cache.setEx("hashtag", 3600, JSON.stringify(response.data));
+            res.send(response.data);
+        });
+    } else {
+        Log.info("Cache hit");
+        res.send(JSON.parse(cached_data));
+    }
 
-    let url = await geturl();
-    axios.get(url, {
-        headers: { "Accept-Encoding": "gzip,deflate,compress" }
-    }).then((response) => {
-        res.send(response.data);
-    });
 });
 
 export default router;
