@@ -12,7 +12,7 @@ let redis_cache = createClient();
     const url = process.env.REDIS_URL;
     redis_cache = createClient({
         url,
-        password: 'GcgdM6vDEifXbnju194vpl1HjBIdsoZA'
+        password: process.env.REDIS_PASSWORD,
     });;
 
     redis_cache.on("error", (error) => console.error(`Error : ${error}`));
@@ -60,7 +60,7 @@ router.get('/', async (req, res) => {
             });
             data.push(res_data);
         }
-        await redis_cache.set("hashtag", JSON.stringify(data));
+        await redis_cache.setEx("hashtag", 3600, JSON.stringify(data));
         res.send(data);
 
     } else {
