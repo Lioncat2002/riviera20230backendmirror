@@ -1,4 +1,4 @@
-MONGO_URI=mongodb+srv://meow:meow@cluster0.340pku2.mongodb.net/?retryWrites=true&w=majority
+MONGO_URI=
 GMAIL_ID=
 GMAIL_PASSWORD=
 ACCESS_TOKEN=
