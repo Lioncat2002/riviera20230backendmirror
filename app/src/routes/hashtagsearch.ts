@@ -9,7 +9,11 @@ const router = Router();
 const BASE_URL = "https://graph.facebook.com/ig_hashtag_search";
 let redis_cache = createClient();
 (async () => {
-    redis_cache = createClient();
+    const url = process.env.REDIS_URL;
+    redis_cache = createClient({
+        url,
+        password: 'GcgdM6vDEifXbnju194vpl1HjBIdsoZA'
+    });;
 
     redis_cache.on("error", (error) => console.error(`Error : ${error}`));
 
