@@ -29,7 +29,7 @@ const schema = {
 };
 /**
  * @openapi
- * /:
+ * /events:
  *   get:
  *     description: Returns a list of all the events
  *     responses:
@@ -37,8 +37,29 @@ const schema = {
  *         description: A List containing all upcoming events
  */
 router.get('/', Events.events_list);
+/**
+ * @openapi
+ * /events/:key:
+ *   put:
+ *     description: Creates a new event (needs an API key)
+ *     responses:
+ *       201:
+ *         description: Returns the newly created event
+ */
 router.put('/:key', Validate.body(schema.event), Events.event_import);
+
+/**
+ * @openapi
+ * /events/search:
+ *   post:
+ *     description: Used for searching events
+ *     responses:
+ *       200:
+ *         description: returns the list of events that match the search query
+ */
+router.post('/search', Validate.body(schema.events_search), Events.events_search);
 router.get('/search', Validate.query(schema.events_search), Events.events_search);
+
 
 
 export default router;

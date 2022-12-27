@@ -18,6 +18,9 @@ WORKDIR /app/
 
 COPY --from=builder /usr/src/dist/ /app/
 COPY package.json /app/
+COPY src/ /app/src/
+COPY .env /app/
 
-RUN yarn install --production
-CMD ["yarn", "start"]
+RUN yarn global add ts-node-dev typescript
+RUN yarn install
+CMD ["yarn", "dev"]
