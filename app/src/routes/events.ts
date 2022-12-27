@@ -58,7 +58,6 @@ router.put('/:key', Validate.body(schema.event), Events.event_import);
  *         description: returns the list of events that match the search query
  */
 router.post('/search', Validate.body(schema.events_search), Events.events_search);
-=======
 router.get('/search', Validate.query(schema.events_search), Events.events_search);
 
 
