@@ -35,7 +35,7 @@ async function geturl() {
       const url =
                 "https://graph.facebook.com/" +
                 hashtagId +
-                "/recent_media?user_id=" +
+                "/top_media?user_id=" +
                 user_id +
                 "&fields=permalink,caption,comments_count,like_count,media_type,media_url&access_token=" +
                 access_token;
@@ -62,7 +62,7 @@ router.get('/', async (req, res) => {
       data.push(...res_data.data);
     }
     await redis_cache.setEx("hashtag", 3600, JSON.stringify(data));
-    res.send(data);
+    res.send([...new Set(data)]);
 
   } else {
     Log.info("Cache hit");
