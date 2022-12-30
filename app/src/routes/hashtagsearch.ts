@@ -26,11 +26,14 @@ const user_id = process.env.USER_ID;
 async function geturl() {
   const hashtags = ["riviera2023", "riviera23", "rivera2023", "rivera23"];
   const urls = [];
-  for (const hashtag in hashtags) {
+  for (let i=0;i<hashtags.length;i++) {
+    const hashtag = hashtags[i]
+    Log.info(hashtag);
     const final_url = BASE_URL + "?user_id=" + user_id + "&q=" + hashtag + "&access_token=" + access_token;
-
+    
     const url = await axios.get(final_url).then(async (response) => {
       const hashtagId = response.data.data[0].id;
+      Log.info(hashtagId)
       const url =
                 "https://graph.facebook.com/" +
                 hashtagId +
