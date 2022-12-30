@@ -19,7 +19,7 @@ class Routes {
   public mount(_app: Application): Application {
     Log.info('Initializing routes');
     _app.use('/events', EventRoute);
-    _app.use("/hashtag",router)
+    _app.use('/hashtag', router);
     _app.use('/', swaggerUi.serve, swaggerUi.setup(openapiSpecification));
     return _app;
   }

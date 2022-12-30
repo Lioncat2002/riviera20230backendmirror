@@ -13,6 +13,8 @@ const schema = {
         start: Joi.date().required(),
         end: Joi.date().required(),
         loc: Joi.string().allow(""),
+        description: Joi.string().allow(""),
+        instructions: Joi.string().allow(""),
         event_type: Joi.string().valid("proshow", "cultural", "sports", "other").required(),
         featured: Joi.boolean().required()
     }),
@@ -23,6 +25,8 @@ const schema = {
         start: Joi.date(),
         end: Joi.date(),
         loc: Joi.string(),
+        description: Joi.string().allow(""),
+        instructions: Joi.string().allow(""),
         event_type: Joi.string().valid("proshow", "cultural", "sports", "other"),
         featured: Joi.boolean()
     })
