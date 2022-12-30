@@ -1,6 +1,6 @@
 import { Application } from "express";
 import Log from "../middlewares/Log";
-import EventRoute from "../routes/events"
+import EventRoute from "../routes/events";
 import router from "../routes/hashtagsearch";
 import swaggerJsdoc from "swagger-jsdoc";
 import swaggerUi from "swagger-ui-express";

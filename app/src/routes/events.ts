@@ -1,5 +1,5 @@
 import { Router } from "express";
-import Events from "../controllers/Events"
+import Events from "../controllers/Events";
 import Joi from "joi";
 import Validate from "../middlewares/Validate";
 
@@ -13,8 +13,8 @@ const schema = {
         start: Joi.date().required(),
         end: Joi.date().required(),
         loc: Joi.string().allow(""),
-        description: Joi.string().allow(""),
-        instructions: Joi.string().allow(""),
+        description: Joi.string().required(),
+        instructions: Joi.string().required(),
         event_type: Joi.string().valid("proshow", "cultural", "sports", "other").required(),
         featured: Joi.boolean().required()
     }),
@@ -63,7 +63,6 @@ router.put('/:key', Validate.body(schema.event), Events.event_import);
  */
 router.post('/search', Validate.body(schema.events_search), Events.events_search);
 router.get('/search', Validate.query(schema.events_search), Events.events_search);
-
 
 
 export default router;
