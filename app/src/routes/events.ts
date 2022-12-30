@@ -6,30 +6,30 @@ import Validate from "../middlewares/Validate";
 const router = Router();
 
 const schema = {
-    event: Joi.object({
-        name: Joi.string().required(),
-        organizing_body: Joi.string().required(),
-        image_url: Joi.string().allow(""),
-        start: Joi.date().required(),
-        end: Joi.date().required(),
-        loc: Joi.string().allow(""),
-        description: Joi.string().required(),
-        instructions: Joi.string().required(),
-        event_type: Joi.string().valid("proshow", "cultural", "sports", "other").required(),
-        featured: Joi.boolean().required()
-    }),
-    events_search: Joi.object({
-        _id: Joi.string(),
-        name: Joi.string(),
-        organizing_body: Joi.string(),
-        start: Joi.date(),
-        end: Joi.date(),
-        loc: Joi.string(),
-        description: Joi.string().allow(""),
-        instructions: Joi.string().allow(""),
-        event_type: Joi.string().valid("proshow", "cultural", "sports", "other"),
-        featured: Joi.boolean()
-    })
+  event: Joi.object({
+    name: Joi.string().required(),
+    organizing_body: Joi.string().required(),
+    image_url: Joi.string().allow(""),
+    start: Joi.date().required(),
+    end: Joi.date().required(),
+    loc: Joi.string().allow(""),
+    description: Joi.string().required(),
+    instructions: Joi.string().required(),
+    event_type: Joi.string().valid("proshow", "cultural", "sports", "other").required(),
+    featured: Joi.boolean().required()
+  }),
+  events_search: Joi.object({
+    _id: Joi.string(),
+    name: Joi.string(),
+    organizing_body: Joi.string(),
+    start: Joi.date(),
+    end: Joi.date(),
+    loc: Joi.string(),
+    description: Joi.string().allow(""),
+    instructions: Joi.string().allow(""),
+    event_type: Joi.string().valid("proshow", "cultural", "sports", "other"),
+    featured: Joi.boolean()
+  })
 };
 /**
  * @openapi
