@@ -14,8 +14,10 @@ export interface IEvents {
     start: Date,
     end: Date,
     loc: string,
+    description: string,
+    instructions: string,
     event_type: string,
     featured: boolean,
 }
 
-export default IEvents
+export default IEvents;
