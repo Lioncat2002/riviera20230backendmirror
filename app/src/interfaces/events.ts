@@ -17,6 +17,7 @@ export interface IEvents {
     description: string,
     instructions: string,
     event_type: string,
+    cost: string,
     featured: boolean,
 }
 
