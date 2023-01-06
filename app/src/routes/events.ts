@@ -15,7 +15,8 @@ const schema = {
     loc: Joi.string().allow(""),
     description: Joi.string().required(),
     instructions: Joi.string().required(),
-    event_type: Joi.string().valid("proshow", "cultural", "sports", "other").required(),
+    event_type: Joi.string().valid("Informal", "Quiz Words Worth", "Cyber Engage", "Pre Riviera", "Premium", "Art Drama", "Workshop", "Music", "Dance", "Adventure Sports", "null", "Proshow").required(),
+    cost: Joi.string().required(),
     featured: Joi.boolean().required()
   }),
   events_search: Joi.object({
@@ -27,7 +28,8 @@ const schema = {
     loc: Joi.string(),
     description: Joi.string().allow(""),
     instructions: Joi.string().allow(""),
-    event_type: Joi.string().valid("proshow", "cultural", "sports", "other"),
+    event_type: Joi.string().valid("Informal", "Quiz Words Worth", "Cyber Engage", "Pre Riviera", "Premium", "Art Drama", "Workshop", "Music", "Dance", "Adventure Sports", "null", "Proshow").required(),
+    cost: Joi.string().required(),
     featured: Joi.boolean()
   })
 };
