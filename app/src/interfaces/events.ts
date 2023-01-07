@@ -17,7 +17,12 @@ export interface IEvents {
     description: string,
     instructions: string,
     event_type: string,
-    cost: string,
+    total_cost: string,
+    base_cost: string,
+    sgst: string,
+    cgst: string,
+    total_cgst: string,
+    seats: string,
     featured: boolean,
 }
 
