@@ -12,7 +12,12 @@ export const EventsSchema = new mongoose.Schema<IEvents>({
   description: { type: String },
   instructions: { type: String },
   event_type: { type: String },
-  cost: { type: String },
+  total_cost: { type: String },
+  base_cost: { type: String },
+  sgst: { type: String },
+  cgst: { type: String },
+  total_cgst: { type: String },
+  seats: { type: String },
   featured: { type: Boolean }
 }, {
   timestamps: false,
