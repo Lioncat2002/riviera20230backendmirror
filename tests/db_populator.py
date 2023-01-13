@@ -31,7 +31,7 @@ for index, row in df4.iterrows():
         "image_url": "https://picsum.photos/200",
         "start": "12-30-2022",
         "end": "12-30-2022",
-        "loc": random.choice(["SJT", "TT", "Ground", "Greenos", "PRP"]),
+        "loc": "TBD",
         "description": description,
         "instructions": random.choice(["hello there", "towards left", "right", "upside", "down"]),
         "event_type": category,
