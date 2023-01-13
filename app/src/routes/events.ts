@@ -22,6 +22,7 @@ const schema = {
     cgst: Joi.string().required(),
     total_cgst: Joi.string().required(),
     seats: Joi.string().required(),
+    individual: Joi.boolean().required(),
     featured: Joi.boolean().required()
   }),
   events_search: Joi.object({
@@ -40,6 +41,7 @@ const schema = {
     cgst: Joi.string().required(),
     total_cgst: Joi.string().required(),
     seats: Joi.string().required(),
+    individual: Joi.boolean().required(),
     featured: Joi.boolean()
   })
 };
