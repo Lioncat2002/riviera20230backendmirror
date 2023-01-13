@@ -26,7 +26,9 @@ class Events {
       cgst: Joi.string().required(),
       total_cgst: Joi.string().required(),
       seats: Joi.string().required(),
-      individual: Joi.boolean().required(),
+      teams: Joi.string().allow(""),
+      team_max_members: Joi.string().allow(""),
+      is_team_event: Joi.boolean().required(),
       featured: Joi.boolean().required()
     }),
     events_search: Joi.object({
@@ -38,14 +40,16 @@ class Events {
       loc: Joi.string(),
       description: Joi.string().allow(""),
       instructions: Joi.string().allow(""),
-      event_type: Joi.string().valid("Informal", "Quiz Words Worth", "Cyber Engage", "Pre Riviera", "Premium", "Art Drama", "Workshop", "Music", "Dance", "Adventure Sports", "none", "Proshow").required(),
-      total_cost: Joi.string().required(),
-      base_cost: Joi.string().required(),
+      event_type: Joi.string().valid("Informal", "Quiz Words Worth", "Cyber Engage", "Pre Riviera", "Premium", "Art Drama", "Workshop", "Music", "Dance", "Adventure Sports", "none", "Proshow"),
+      total_cost: Joi.string(),
+      base_cost: Joi.string(),
       sgst: Joi.string().required(),
       cgst: Joi.string().required(),
       total_cgst: Joi.string().required(),
       seats: Joi.string().required(),
-      individual: Joi.boolean().required(),
+      teams: Joi.string().allow(""),
+      team_max_members: Joi.string(),
+      is_team_event: Joi.boolean(),
       featured: Joi.boolean()
     })
   };

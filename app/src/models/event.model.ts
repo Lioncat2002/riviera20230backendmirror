@@ -18,7 +18,9 @@ export const EventsSchema = new mongoose.Schema<IEvents>({
   cgst: { type: String },
   total_cgst: { type: String },
   seats: { type: String },
-  individual: { type: Boolean },
+  teams: {type: String},
+  team_max_members: {type:String},
+  is_team_event: {type: Boolean},
   featured: { type: Boolean }
 }, {
   timestamps: false,
