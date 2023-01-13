@@ -23,7 +23,9 @@ export interface IEvents {
     cgst: string,
     total_cgst: string,
     seats: string,
-    individual: boolean,
+    teams: string,
+    team_max_members: string,
+    is_team_event: boolean,
     featured: boolean,
 }
 
