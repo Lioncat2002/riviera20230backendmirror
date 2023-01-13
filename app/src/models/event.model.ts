@@ -18,6 +18,7 @@ export const EventsSchema = new mongoose.Schema<IEvents>({
   cgst: { type: String },
   total_cgst: { type: String },
   seats: { type: String },
+  individual: { type: Boolean },
   featured: { type: Boolean }
 }, {
   timestamps: false,

@@ -23,6 +23,7 @@ export interface IEvents {
     cgst: string,
     total_cgst: string,
     seats: string,
+    individual: boolean,
     featured: boolean,
 }
 

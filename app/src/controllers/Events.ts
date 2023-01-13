@@ -3,11 +3,52 @@ import Log from "../middlewares/Log";
 import EventsModel from "../models/event.model";
 import sha256 from "sha256";
 import dotenv from "dotenv";
+import Joi from "joi";
 
 dotenv.config();
 
 
 class Events {
+  static schema = {
+    event: Joi.object({
+      name: Joi.string().required(),
+      organizing_body: Joi.string().required(),
+      image_url: Joi.string().allow(""),
+      start: Joi.date().required(),
+      end: Joi.date().required(),
+      loc: Joi.string().allow(""),
+      description: Joi.string().required(),
+      instructions: Joi.string().required(),
+      event_type: Joi.string().valid("Informal", "Quiz Words Worth", "Cyber Engage", "Pre Riviera", "Premium", "Art Drama", "Workshop", "Music", "Dance", "Adventure Sports", "none", "Proshow").required(),
+      total_cost: Joi.string().required(),
+      base_cost: Joi.string().required(),
+      sgst: Joi.string().required(),
+      cgst: Joi.string().required(),
+      total_cgst: Joi.string().required(),
+      seats: Joi.string().required(),
+      individual: Joi.boolean().required(),
+      featured: Joi.boolean().required()
+    }),
+    events_search: Joi.object({
+      _id: Joi.string(),
+      name: Joi.string(),
+      organizing_body: Joi.string(),
+      start: Joi.date(),
+      end: Joi.date(),
+      loc: Joi.string(),
+      description: Joi.string().allow(""),
+      instructions: Joi.string().allow(""),
+      event_type: Joi.string().valid("Informal", "Quiz Words Worth", "Cyber Engage", "Pre Riviera", "Premium", "Art Drama", "Workshop", "Music", "Dance", "Adventure Sports", "none", "Proshow").required(),
+      total_cost: Joi.string().required(),
+      base_cost: Joi.string().required(),
+      sgst: Joi.string().required(),
+      cgst: Joi.string().required(),
+      total_cgst: Joi.string().required(),
+      seats: Joi.string().required(),
+      individual: Joi.boolean().required(),
+      featured: Joi.boolean()
+    })
+  };
   public static async events_list(
     req: Request,
     res: Response
