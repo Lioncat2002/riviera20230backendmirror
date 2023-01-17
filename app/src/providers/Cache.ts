@@ -44,27 +44,37 @@ async function geturl() {
 
 
 async function gethashtag(req: Request, res: Response) {
-    const cached_data = await redis_cache.get("hashtag");
-    if (!cached_data) {
-        const urls = await geturl();
-        const data: string[] = [];
-        for (let i = 0; i < urls.length; i++) {
-            const url = urls[i];
+    try {
+        const cached_data = await redis_cache.get("hashtag");
+        if (!cached_data) {
+            const urls = await geturl();
+            const data: string[] = [];
+            for (let i = 0; i < urls.length; i++) {
+                const url = urls[i];
 
-            const res_data = await axios.get(url, {
-                headers: { "Accept-Encoding": "gzip,deflate,compress" }
-            }).then(async (response) => {
-                return response.data;
-            });
-            data.push(...res_data.data);
+                const res_data = await axios.get(url, {
+                    headers: { "Accept-Encoding": "gzip,deflate,compress" }
+                }).then(async (response) => {
+                    return response.data;
+                });
+                data.push(...res_data.data);
+            }
+            await redis_cache.setEx("hashtag", 3600, JSON.stringify(data));
+            res.send([...new Set(data)]);
+
+        } else {
+            Log.info("Cache hit");
+            res.send(JSON.parse(cached_data));
         }
-        await redis_cache.setEx("hashtag", 3600, JSON.stringify(data));
-        res.send([...new Set(data)]);
-
-    } else {
-        Log.info("Cache hit");
-        res.send(JSON.parse(cached_data));
     }
+    catch (err) {
+        Log.info(err)
+        res.send({
+            "Error": "Failed to fetch from instagram api"
+        })
+    }
+
+
 }
 
 export default gethashtag;

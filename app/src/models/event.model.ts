@@ -13,14 +13,10 @@ export const EventsSchema = new mongoose.Schema<IEvents>({
   instructions: { type: String },
   event_type: { type: String },
   total_cost: { type: String },
-  base_cost: { type: String },
-  sgst: { type: String },
-  cgst: { type: String },
-  total_cgst: { type: String },
   seats: { type: String },
-  teams: {type: String},
-  team_max_members: {type:String},
-  is_team_event: {type: Boolean},
+  teams: { type: String },
+  team_max_members: { type: String },
+  is_team_event: { type: Boolean },
   featured: { type: Boolean }
 }, {
   timestamps: false,
