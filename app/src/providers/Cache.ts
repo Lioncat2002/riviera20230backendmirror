@@ -70,7 +70,8 @@ async function gethashtag(req: Request, res: Response) {
     catch (err) {
         Log.info(err)
         res.send({
-            "Error": "Failed to fetch from instagram api"
+            "Error": "Failed to fetch from instagram api",
+            "error": err
         })
     }
 
