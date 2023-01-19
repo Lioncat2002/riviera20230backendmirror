@@ -6,4 +6,3 @@ nginx/cert/
 .DS_Store
 *.log
 **/fly.toml
-**/*.xlsx
