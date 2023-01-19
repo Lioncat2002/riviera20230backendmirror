@@ -25,6 +25,7 @@ router.get('/', Events.events_list);
  *         description: Returns the newly created event
  */
 router.put('/:key', Validate.body(Events.schema.event), Events.event_import);
+router.patch("/:key", Events.event_update);
 
 /**
  * @openapi
