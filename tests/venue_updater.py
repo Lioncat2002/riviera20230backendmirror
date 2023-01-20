@@ -9,10 +9,11 @@ def test():
     for index, row in df1.iterrows():
 
         json = {
-            "name": row["Event Name"],
-                "start": row["STARTDATE"].split("T")[0],
-                "end": row["ENDDATE"].split("T")[0],
-                "loc":row["Final Venue"]
+            "name": "Stuff",
+            "iamge_url":""
+               # "start": row["STARTDATE"].split("T")[0],
+               # "end": row["ENDDATE"].split("T")[0],
+               # "loc":row["Final Venue"]
             
         
         }

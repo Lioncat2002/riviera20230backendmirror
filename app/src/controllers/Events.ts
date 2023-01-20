@@ -91,6 +91,28 @@ class Events {
       Log.info("SHA256 HASHED SENT API KEY =>" + sha256(req.params.key));
       if (sha256(req.params.key) === process.env.API_KEY) {
         Log.info(JSON.stringify(req.body.start));
+        return res.status(200).json(await EventsModel.findOneAndUpdate({ name: { '$regex': req.body.name } }, { image_url: req.body.image_url }));
+      }
+      else {
+        return res.status(401).json({ error: "Invalid key" });
+      }
+    }
+    catch (err) {
+      Log.error("Error occurred on PATCH /events => " + err);
+    }
+  }
+
+  public static async event_update_loc(
+    req: Request,
+    res: Response
+  ): Promise<Response | void> {
+    try {
+      Log.info("SYSTEM API KEY =>" + process.env.API_KEY);
+      Log.info("SHA256 HASHED API KEY =>" + sha256(process.env.API_KEY));
+      Log.info("SENT API KEY =>" + req.params.key);
+      Log.info("SHA256 HASHED SENT API KEY =>" + sha256(req.params.key));
+      if (sha256(req.params.key) === process.env.API_KEY) {
+        Log.info(JSON.stringify(req.body.start));
         return res.status(200).json(await EventsModel.findOneAndUpdate({ name: { '$regex': req.body.name } }, { start: req.body.start, end: req.body.end, loc: req.body.loc }));
       }
       else {
