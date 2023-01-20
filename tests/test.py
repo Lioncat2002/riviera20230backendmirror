@@ -8,8 +8,8 @@ def test():
         "name": "Skills N Thrills",
         "image_url": "https://i.imgur.com/tfwhkf1.jpg",
     }
-    r = requests.patch('http://localhost:3000/events/bruh', data=json)
-    print(r.json())
+    r = requests.patch('https://riviera.fly.dev/events/bruh', data=json)
+    print(r.text)
 
 
 test()
