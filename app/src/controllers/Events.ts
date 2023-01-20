@@ -13,10 +13,10 @@ class Events {
     event: Joi.object({
       name: Joi.string().required(),
       organizing_body: Joi.string().required(),
-      image_url: Joi.string().allow(""),
-      start: Joi.date().required(),
+      image_url: Joi.string().default("https://picsum.photos/200"),
+      start: Joi.date(),
       end: Joi.date().required(),
-      loc: Joi.string().allow(""),
+      loc: Joi.string().default("TBD"),
       description: Joi.string().required(),
       instructions: Joi.string().required(),
       event_type: Joi.string().valid("Informal", "Quiz Words Worth", "Cyber Engage", "Pre Riviera", "Premium", "Art Drama", "Workshop", "Music", "Dance", "Adventure Sports", "none", "Proshow").required(),
