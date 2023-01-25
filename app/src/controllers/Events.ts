@@ -21,7 +21,7 @@ class Events {
       instructions: Joi.string().required(),
       event_type: Joi.string().valid("Informal", "Quiz Words Worth", "Cyber Engage", "Pre Riviera", "Premium", "Art Drama", "Workshop", "Music", "Dance", "Adventure Sports", "none", "Proshow", "Sports").required(),
       total_cost: Joi.string().required(),
-      seats: Joi.string().required(),
+      seats: Joi.string().required().allow(""),
       teams: Joi.string().allow(""),
       team_max_members: Joi.string().allow(""),
       is_team_event: Joi.boolean().required(),
