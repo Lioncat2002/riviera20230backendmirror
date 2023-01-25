@@ -48,9 +48,8 @@ for index, row in df1.iterrows():
        "is_team_event": "false",
        "featured": random.choice(["true", "false"])
    }
-   #r = requests.put('http://localhost:3000/events/bruh', data=json)
-   #print(r.json())
-   #input("type something to continue")
+   r = requests.put('http://localhost:3000/events/bruh', data=json)
+   print(r.json())
 
 for index, row in df3.iterrows():
    category = str(row["Category"])
@@ -88,9 +87,9 @@ for index, row in df3.iterrows():
        "is_team_event": "true",
        "featured": random.choice(["true", "false"])
    }
-   r = requests.put('http://localhost:3000/events/test', data=json)
+   r = requests.put('http://localhost:3000/events/bruh', data=json)
    print(r.json())
-   input("type something to continue")
+   
 #df3 = pd.read_excel(xls, "Team Events")
 #df3 = df3[["Event Name", "Club/ Chapter/ Individual",
 #           "Category", "Teams (Internal)", "Teams (External)", "Max Members/Team", "Total Event Cost", "Base Cost", "SGST(%9)", "CGST(%9)", "Total GST(%18)"]].copy()
