@@ -42,40 +42,73 @@ async function geturl() {
     return urls;
 }
 
+class Hashtag {
+    public static async setblacklist(req: Request, res: Response) {
+        const blacklist = req.body.blacklist;
+        Log.info(blacklist);
+        await redis_cache.set("blacklist", JSON.stringify(blacklist));
+        res.send("Blacklist updated");
+    }
 
-async function gethashtag(req: Request, res: Response) {
-    try {
-        const cached_data = await redis_cache.get("hashtag");
-        if (!cached_data) {
-            const urls = await geturl();
-            const data: string[] = [];
-            for (let i = 0; i < urls.length; i++) {
-                const url = urls[i];
+    public static async gethashtag(req: Request, res: Response) {
+        try {
+            const cached_data = await redis_cache.get("hashtag");
+            let list = await redis_cache.get("blacklist");
+            Log.info(list);
 
-                const res_data = await axios.get(url, {
-                    headers: { "Accept-Encoding": "gzip,deflate,compress" }
-                }).then(async (response) => {
-                    return response.data;
-                });
-                data.push(...res_data.data);
+            const blacklist: string[] = list ? JSON.parse(list) : [];
+            if (!cached_data) {
+                const urls = await geturl();
+                const data: string[] = [];
+
+                for (let i = 0; i < urls.length; i++) {
+                    const url = urls[i];
+
+                    const res_data = await axios.get(url, {
+                        headers: { "Accept-Encoding": "gzip,deflate,compress" }
+                    }).then(async (response) => {
+                        return response.data;
+                    });
+
+                    data.push(...res_data.data);
+                }
+                for (let i = 0; i < data.length; i++) {
+                    Log.info(data[i]);
+                    const post = data[i];
+                    const id = post.id;
+                    if (blacklist.includes(id)) {
+                        Log.info(post);
+                        data.splice(i, 1);
+                    }
+                }
+                await redis_cache.setEx("hashtag", 3600, JSON.stringify(data));
+                res.send([...new Set(data)]);
+
+            } else {
+                Log.info("Cache hit");
+                const data = JSON.parse(cached_data);
+                for (let i = 0; i < data.length; i++) {
+                    const post = data[i];
+                    const id = post["id"];
+                    if (blacklist.includes(id)) {
+                        data.splice(i, 1);
+                    }
+                }
+                res.send(data);
             }
-            await redis_cache.setEx("hashtag", 3600, JSON.stringify(data));
-            res.send([...new Set(data)]);
-
-        } else {
-            Log.info("Cache hit");
-            res.send(JSON.parse(cached_data));
         }
-    }
-    catch (err) {
-        Log.info(err)
-        res.send({
-            "Error": "Failed to fetch from instagram api",
-            "error": err
-        })
-    }
+        catch (err) {
+            Log.info(err)
+            res.send({
+                "Error": "Failed to fetch from instagram api",
+                "error": err
+            })
+        }
 
 
+    }
 }
 
-export default gethashtag;
+
+
+export default Hashtag;

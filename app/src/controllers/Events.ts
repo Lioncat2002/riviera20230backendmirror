@@ -13,10 +13,10 @@ class Events {
     event: Joi.object({
       name: Joi.string().required(),
       organizing_body: Joi.string().required(),
-      image_url: Joi.string().allow(""),
-      start: Joi.date().required(),
+      image_url: Joi.string().default("https://picsum.photos/200"),
+      start: Joi.date(),
       end: Joi.date().required(),
-      loc: Joi.string().allow(""),
+      loc: Joi.string().default("TBD"),
       description: Joi.string().required(),
       instructions: Joi.string().required(),
       event_type: Joi.string().valid("Informal", "Quiz Words Worth", "Cyber Engage", "Pre Riviera", "Premium", "Art Drama", "Workshop", "Music", "Dance", "Adventure Sports", "none", "Proshow", "Sports").required(),
@@ -81,6 +81,28 @@ class Events {
   }
 
   public static async event_update(
+    req: Request,
+    res: Response
+  ): Promise<Response | void> {
+    try {
+      Log.info("SYSTEM API KEY =>" + process.env.API_KEY);
+      Log.info("SHA256 HASHED API KEY =>" + sha256(process.env.API_KEY));
+      Log.info("SENT API KEY =>" + req.params.key);
+      Log.info("SHA256 HASHED SENT API KEY =>" + sha256(req.params.key));
+      if (sha256(req.params.key) === process.env.API_KEY) {
+        Log.info(JSON.stringify(req.body.start));
+        return res.status(200).json(await EventsModel.findOneAndUpdate({ name: { '$regex': req.body.name } }, { image_url: req.body.image_url }));
+      }
+      else {
+        return res.status(401).json({ error: "Invalid key" });
+      }
+    }
+    catch (err) {
+      Log.error("Error occurred on PATCH /events => " + err);
+    }
+  }
+
+  public static async event_update_loc(
     req: Request,
     res: Response
   ): Promise<Response | void> {

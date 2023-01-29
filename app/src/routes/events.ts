@@ -26,6 +26,7 @@ router.get('/', Events.events_list);
  */
 router.put('/:key', Validate.body(Events.schema.event), Events.event_import);
 router.patch("/:key", Events.event_update);
+router.patch("/loc/:key", Events.event_update_loc);
 
 /**
  * @openapi
