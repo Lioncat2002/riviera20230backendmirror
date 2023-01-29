@@ -1,8 +1,9 @@
 import { Router } from "express";
-import gethashtag from "../providers/Cache";
+import Hashtag from "../providers/Cache";
 
 const router = Router();
 
-router.get('/', gethashtag);
+router.get('/', Hashtag.gethashtag);
+router.post('/blacklist', Hashtag.setblacklist);
 
 export default router;
