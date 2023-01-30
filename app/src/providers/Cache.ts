@@ -66,7 +66,7 @@ class Hashtag {
             const blacklist: string[] = list ? JSON.parse(list) : [];
             if (!cached_data) {
                 const urls = await geturl();
-                const data: string[] = [];
+                const data = [];
 
                 for (let i = 0; i < urls.length; i++) {
                     const url = urls[i];
@@ -79,15 +79,14 @@ class Hashtag {
 
                     data.push(...res_data.data);
                 }
-                //for (let i = 0; i < data.length; i++) {
-                //
-                //    const post = data[i];
-                //    //const id = post["id"];
-                //    if (blacklist.includes(id)) {
-                //        Log.info(post);
-                //        data.splice(i, 1);
-                //    }
-                //}
+                for (let i = 0; i < data.length; i++) {
+
+                    const id = data[i].id;
+                    //const id = post["id"];
+                    if (blacklist.includes(id)) {
+                        data.splice(i, 1);
+                    }
+                }
                 await redis_cache.setEx("hashtag", 3600, JSON.stringify(data));
                 res.send([...new Set(data)]);
 
