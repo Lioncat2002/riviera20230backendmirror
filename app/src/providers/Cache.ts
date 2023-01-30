@@ -15,6 +15,7 @@ let redis_cache = createClient();
     redis_cache.on("error", (error) => console.error(`Error : ${error}`));
     try {
         await redis_cache.connect();
+        Log.info("Connected to redis");
     }
     catch (err) {
 
