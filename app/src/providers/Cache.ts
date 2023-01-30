@@ -15,6 +15,7 @@ let redis_cache = createClient();
     redis_cache.on("error", (error) => console.error(`Error : ${error}`));
     try {
         await redis_cache.connect();
+        Log.info("Connected to redis");
     }
     catch (err) {
 
@@ -87,7 +88,7 @@ class Hashtag {
                     const id = data[i].id;
                     //const id = post["id"]
                     if (blacklist.includes(id)) {
-                     
+
                         data.splice(i, 1);
                     }
                 }
