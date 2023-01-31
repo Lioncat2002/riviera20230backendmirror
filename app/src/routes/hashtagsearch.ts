@@ -1,5 +1,5 @@
 import { Router } from "express";
-import Hashtag from "../providers/Cache";
+import Hashtag from "../controllers/Hashtag";
 
 const router = Router();
 
