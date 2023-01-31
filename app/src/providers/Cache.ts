@@ -12,10 +12,10 @@ let redis_cache = createClient();
         password: process.env.REDIS_PASSWORD,
     });
 
-    redis_cache.on("error", (error) => {
-        Log.error(error)
-        process.exit();
-    });
+    //redis_cache.on("error", (error) => {
+    //    Log.error(error)
+    //    //process.exit();
+    //});
     try {
         await redis_cache.connect();
         Log.info("Connected to redis");
@@ -54,13 +54,30 @@ async function geturl() {
 
 class Hashtag {
     public static async setblacklist(req: Request, res: Response) {
+        if (!redis_cache.isReady) {
+            Log.error("Redis not connected");
+            res.send({
+                "Error": "Redis not connected"
+            })
+            return;
+        }
         const blacklist = req.body.blacklist;
         Log.info(blacklist);
         await redis_cache.set("blacklist", JSON.stringify(blacklist));
         res.send("Blacklist updated");
+
     }
 
     public static async gethashtag(req: Request, res: Response) {
+
+        if (!redis_cache.isReady) {
+            Log.error("Redis not connected");
+            res.send({
+                "Error": "Redis not connected"
+            })
+            return;
+        }
+
         try {
             const cached_data = await redis_cache.get("hashtag");
             let list = await redis_cache.get("blacklist");
