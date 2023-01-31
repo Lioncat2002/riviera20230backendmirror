@@ -5,6 +5,7 @@ import { Request, Response } from "express";
 const BASE_URL = "https://graph.facebook.com/ig_hashtag_search";
 let redis_cache = createClient();
 (async () => {
+
     const url = process.env.REDIS_URL;
     redis_cache = createClient({
         url,
@@ -12,8 +13,15 @@ let redis_cache = createClient();
     });
 
     redis_cache.on("error", (error) => console.error(`Error : ${error}`));
+    try {
+        await redis_cache.connect();
+        Log.info("Connected to redis");
+    }
+    catch (err) {
 
-    await redis_cache.connect();
+        Log.info("Couldn't create redis instance" + err);
+    }
+
 })();
 
 const access_token = process.env.ACCESS_TOKEN;
@@ -59,7 +67,9 @@ class Hashtag {
             const blacklist: string[] = list ? JSON.parse(list) : [];
             if (!cached_data) {
                 const urls = await geturl();
-                const data: string[] = [];
+
+                const data = [];
+
 
                 for (let i = 0; i < urls.length; i++) {
                     const url = urls[i];
@@ -73,11 +83,12 @@ class Hashtag {
                     data.push(...res_data.data);
                 }
                 for (let i = 0; i < data.length; i++) {
-                    Log.info(data[i]);
-                    const post = data[i];
-                    const id = post.id;
+
+
+                    const id = data[i].id;
+                    //const id = post["id"]
                     if (blacklist.includes(id)) {
-                        Log.info(post);
+
                         data.splice(i, 1);
                     }
                 }

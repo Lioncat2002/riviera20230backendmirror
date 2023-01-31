@@ -6,7 +6,7 @@ def test():
     df1 = pd.read_excel(xls, "meow")
     df1 = df1.reset_index()
 
-    for index, row in df1.iterrows():
+    for i, row in df1.iterrows():
 
         datetime=row["STARTDATE"].split("T")
         startdate=datetime[0].split("-")
