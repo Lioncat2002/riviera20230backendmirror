@@ -1,5 +1,6 @@
 import Express from "./Express";
 import { Database } from "./Database";
+import { Redis } from "./Cache"
 import Log from "../middlewares/Log";
 import dotenv from "dotenv";
 
@@ -14,6 +15,11 @@ class App {
     Log.info('Database :: Loading...');
     Database.init();
   }
+  public loadRedis(): void {
+    Log.info('Redis :: Loading...');
+    Redis.connect();
+  }
+
 }
 
 export default new App;

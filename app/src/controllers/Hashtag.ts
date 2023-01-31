@@ -7,14 +7,6 @@ import { RedisClientType } from "redis";
 const BASE_URL = "https://graph.facebook.com/ig_hashtag_search";
 const access_token = process.env.ACCESS_TOKEN;
 const user_id = process.env.USER_ID;
-let redis_cache: RedisClientType;
-(async () => {
-    redis_cache = await Redis.redis_connect();
-})();
-
-
-
-
 
 class Hashtag {
     private static async geturl() {
@@ -39,39 +31,49 @@ class Hashtag {
         }
         return urls;
     }
-
     public static async setblacklist(req: Request, res: Response) {
-        if (!redis_cache.isReady) {
+      const {blacklist} = req.body;
+      try {
+        // check if redis is connected
+        if (!Redis.isReady) {
             Log.error("Redis not connected");
-            res.send({
-                "Error": "Redis not connected"
-            })
-            return;
+            return res.status(500).json({
+                success: false,
+                message: "Redis not connected",
+            });
         }
-        const blacklist = req.body.blacklist;
+
         Log.info(blacklist);
-        await redis_cache.set("blacklist", JSON.stringify(blacklist));
-        res.send("Blacklist updated");
+        
+        // set blacklist in redis
+        await Redis.add(0, "blacklist", JSON.stringify(blacklist));
+        
+        //  return success
+        return res.status(200).send("Blacklist updated");
+      } catch (err) {
+        Log.error(err);
+        return res.status(500).json({
+            success: false,
+            message: "Error in Updating",
+        });
+      }
 
     }
-
     public static async gethashtag(req: Request, res: Response) {
-
-        if (!redis_cache.isReady) {
+        if (!Redis.isReady()) {
             Log.error("Redis not connected");
-            res.send({
+            return res.status(200).send({
                 "Error": "Redis not connected"
             })
-            return;
         }
-
         try {
-            const cached_data = await redis_cache.get("hashtag");
-            let list = await redis_cache.get("blacklist");
-            Log.info(list);
+            const cachedData = await Redis.get(0, "hashtag");
+            const list = await Redis.get(0, "blacklist");
+            
+            Log.info("List: " + list);
 
             const blacklist: string[] = list ? JSON.parse(list) : [];
-            if (!cached_data) {
+            if (!cachedData) {
                 const urls = await Hashtag.geturl();
 
                 const data = [];
@@ -94,31 +96,32 @@ class Hashtag {
                         data.splice(i, 1);
                     }
                 }
-                await redis_cache.setEx("hashtag", 3600, JSON.stringify(data));
-                res.send([...new Set(data)]);
+                await Redis.add(0, "hashtag", JSON.stringify(data));
+                return res.send([...new Set(data)]);
 
-            } else {
-                Log.info("Cache hit");
-                const data = JSON.parse(cached_data);
-                for (let i = 0; i < data.length; i++) {
-                    const post = data[i];
-                    const id = post["id"];
-                    if (blacklist.includes(id)) {
-                        data.splice(i, 1);
-                    }
+            } 
+
+            Log.info("Cache hit");
+
+            const data = JSON.parse(cachedData);
+
+            // remove blacklisted posts
+            for (let i = 0; i < data.length; i++) {
+                const post = data[i];
+                const id = post["id"];
+                if (blacklist.includes(id)) {
+                    data.splice(i, 1);
                 }
-                res.send(data);
             }
+            return res.send(data);
         }
         catch (err) {
-            Log.info(err)
-            res.send({
+            Log.error(err)
+            return res.send({
                 "Error": "Failed to fetch from instagram api",
                 "error": err
             })
         }
-
-
     }
 }
 

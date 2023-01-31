@@ -1,5 +1,5 @@
 import cors from "cors";
-import { Application } from "express";
+import type { Application } from "express";
 import Log from "./Log";
 
 class Cors {
@@ -7,8 +7,8 @@ class Cors {
     Log.info("Initializing CORS middleware");
 
     const corsOptions = {
-      origin: '*',
-      optionsSuccessStatus: 200
+      origin: "*",
+      optionsSuccessStatus: 200,
     };
     _app.use(cors(corsOptions));
 

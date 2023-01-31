@@ -1,8 +1,8 @@
 import { createLogger, format, transports } from "winston";
+import type { Logger } from "winston";
 
 class Log {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  private logger: any; 
+  private readonly logger: Logger;
 
   constructor() {
     this.logger = createLogger({
@@ -14,18 +14,20 @@ class Log {
         format.errors({ stack: true }),
         format.json(),
         format.prettyPrint(),
-        format.colorize(),
+        format.colorize()
       ),
       transports: [
-        new transports.File({ filename: "error.log", level: "error" }),
-        new transports.File({ filename: "combined.log" }),
+        new transports.File({ filename: "logs/error.log", level: "error" }),
+        new transports.File({ filename: "logs/combined.log" }),
       ],
     });
 
     if (process.env.NODE_ENV !== "production") {
-      this.logger.add(new transports.Console({
-        format: format.simple(),
-      }));
+      this.logger.add(
+        new transports.Console({
+          format: format.simple(),
+        })
+      );
     }
   }
 
@@ -38,4 +40,4 @@ class Log {
   }
 }
 
-export default new Log;
+export default new Log();

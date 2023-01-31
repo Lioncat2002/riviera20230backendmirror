@@ -1,7 +1,6 @@
 import IEvents from "../interfaces/events";
 import mongoose from "../providers/Database";
 
-
 export const EventsSchema = new mongoose.Schema<IEvents>({
   name: { type: String },
   organizing_body: { type: String },
@@ -23,6 +22,4 @@ export const EventsSchema = new mongoose.Schema<IEvents>({
   versionKey: false
 });
 
-const EventsModel = mongoose.model<IEvents>("Events", EventsSchema);
-
-export default EventsModel;
+export default mongoose.model<IEvents>("Events", EventsSchema);
