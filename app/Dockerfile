@@ -1,5 +1,5 @@
 # Build the App
-FROM node:alpine as builder
+FROM node:17-alpine as builder
 
 RUN mkdir -p /usr/src/
 WORKDIR /usr/src/
@@ -13,7 +13,7 @@ RUN yarn build
 
 
 # Run the app
-FROM node:alpine
+FROM node:17-alpine
 WORKDIR /app/
 
 COPY --from=builder /usr/src/dist/ /app/

@@ -69,8 +69,6 @@ class Hashtag {
                 const urls = await geturl();
 
                 const data = [];
-
-
                 for (let i = 0; i < urls.length; i++) {
                     const url = urls[i];
 
@@ -84,11 +82,9 @@ class Hashtag {
                 }
                 for (let i = 0; i < data.length; i++) {
 
-
                     const id = data[i].id;
-                    //const id = post["id"]
+                    //const id = post["id"];
                     if (blacklist.includes(id)) {
-
                         data.splice(i, 1);
                     }
                 }
