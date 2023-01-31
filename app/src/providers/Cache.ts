@@ -12,13 +12,15 @@ let redis_cache = createClient();
         password: process.env.REDIS_PASSWORD,
     });
 
-    redis_cache.on("error", (error) => console.error(`Error : ${error}`));
+    redis_cache.on("error", (error) => {
+        Log.error(error)
+        process.exit();
+    });
     try {
         await redis_cache.connect();
         Log.info("Connected to redis");
     }
     catch (err) {
-
         Log.info("Couldn't create redis instance" + err);
     }
 
