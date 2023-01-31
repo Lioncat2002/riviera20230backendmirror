@@ -67,8 +67,8 @@ class Hashtag {
             const blacklist: string[] = list ? JSON.parse(list) : [];
             if (!cached_data) {
                 const urls = await geturl();
-                const data = [];
 
+                const data = [];
                 for (let i = 0; i < urls.length; i++) {
                     const url = urls[i];
 
