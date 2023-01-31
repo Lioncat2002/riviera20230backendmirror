@@ -1,26 +1,24 @@
 # Build the App
-FROM node:17-alpine as builder
+FROM node:alpine as builder
 
-RUN mkdir -p /usr/src/
-WORKDIR /usr/src/
+RUN mkdir -p /usr/app/
+WORKDIR /usr/app/
 
-COPY package.json /usr/src/
-
+COPY package.json /usr/app/
 RUN yarn install
-COPY . /usr/src/
+
+COPY tsconfig.json /usr/app/
+COPY /src /usr/app/src
 
 RUN yarn build
 
 
 # Run the app
-FROM node:17-alpine
+FROM node:alpine
 WORKDIR /app/
 
-COPY --from=builder /usr/src/dist/ /app/
+COPY --from=builder /usr/app/dist/ /app/
 COPY package.json /app/
-COPY src/ /app/src/
-#COPY .env /app/
 
-RUN yarn global add ts-node-dev typescript
-RUN yarn install
-CMD ["yarn", "dev"]
+RUN yarn install --production
+CMD ["node", "index.js"]
