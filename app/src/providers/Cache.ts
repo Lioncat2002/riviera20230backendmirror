@@ -21,7 +21,7 @@ let redis_cache = createClient();
         Log.info("Connected to redis");
     }
     catch (err) {
-        Log.info("Couldn't create redis instance" + err);
+        Log.error("Couldn't create redis instance" + err);
     }
 
 })();
