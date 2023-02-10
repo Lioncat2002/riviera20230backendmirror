@@ -9,3 +9,4 @@ nginx/cert/
 venv/
 test2.py
 automation.py
+secrets/

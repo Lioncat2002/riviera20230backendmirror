@@ -1,6 +1,7 @@
 import Express from "./Express";
 import { Database } from "./Database";
 import { Redis } from "./Cache"
+import { Firebase } from "./Firebase";
 import Log from "../middlewares/Log";
 import dotenv from "dotenv";
 
@@ -18,6 +19,10 @@ class App {
   public loadRedis(): void {
     Log.info('Redis :: Loading...');
     Redis.connect();
+  }
+  public loadFirebase(): void {
+    Log.info('Firebase :: Loading...');
+    Firebase.init();
   }
 
 }
