@@ -12,7 +12,7 @@ export class Firebase {
             admin.initializeApp({
                 credential: admin.credential.cert(process.env.GOOGLE_APPLICATION_CREDENTIALS),
             });
-            this.scheduleNotifications(parseInt(process.env.INTERVAL));
+            this.scheduleNotifications(parseInt(process.env.INTERVAL)*1000);
         } catch (err) {
             Log.error(err);
         }
@@ -23,9 +23,12 @@ export class Firebase {
             const event = events[i];
             const date = new Date(event.start).getTime();
             const now = new Date().getTime();
-            const diff = date - now + interval;
-
+            let diff = date - now;
             if (diff > 0) {
+                diff = diff - interval;
+                if (diff < 0) {
+                    diff = 1;
+                }
                 setTimeout(() => {
                     this.sendNotification(event, diff);
                 }, diff);
@@ -58,5 +61,6 @@ export class Firebase {
         } catch (err) {
             Log.error(`Error sending message: ${err}`);
         }
+
     }
 }
