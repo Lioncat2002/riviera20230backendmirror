@@ -10,7 +10,12 @@ export class Firebase {
     public static init(): void {
         try {
             admin.initializeApp({
-                credential: admin.credential.cert(process.env.GOOGLE_APPLICATION_CREDENTIALS),
+                // credential: admin.credential.cert(process.env.GOOGLE_APPLICATION_CREDENTIALS),
+                credential: admin.credential.cert({
+                    projectId: process.env.PROJECT_ID,
+                    clientEmail: process.env.CLIENT_EMAIL,
+                    privateKey: process.env.PRIVATE_KEY
+                })
             });
             this.scheduleNotifications(parseInt(process.env.INTERVAL)*1000);
         } catch (err) {
