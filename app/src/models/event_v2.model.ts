@@ -8,7 +8,8 @@ export const EventsSchema_v2 = new mongoose.Schema<IEvents_v2>({
   date: [
     {
       start_timestamp: { type: Date },
-      end_timestamp:  { type: Date }
+      end_timestamp:  { type: Date },
+      venue: { type: String }
     }
   ],
   loc: { type: String },

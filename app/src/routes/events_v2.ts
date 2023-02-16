@@ -6,7 +6,8 @@ const router = Router();
 
 const date_schema = Joi.object().keys({
   start_timestamp: Joi.date(),
-  end_timestamp: Joi.date()
+  end_timestamp: Joi.date(),
+  venue: Joi.string()
 })
 
 const schema =  {
