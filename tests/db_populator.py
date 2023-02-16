@@ -5,6 +5,7 @@ xls = pd.ExcelFile("events-sports2.xlsx")
 df1 = pd.read_excel(xls, "Individual Events")
 df2 = pd.read_excel(xls, "All Events Description")
 df3 = pd.read_excel(xls, "Team Events")
+
 df1 = df1[["Event Name", "Club/ Chapter/ Individual",
            "Category", "Total Participant Limit", "Registration Fees", "Base Fees", "Fees SGST(%9)", "Fees CGST(%9)"]].copy()
 df2 = df2[["Event Name", "Event Description", "Date & Time", "Venue"]].copy()
@@ -87,7 +88,7 @@ for index, row in df3.iterrows():
        "is_team_event": "true",
        "featured": random.choice(["true", "false"])
    }
-   r = requests.put('http://localhost:3000/events/bruh', data=json)
+   #r = requests.put('http://localhost:3000/events/bruh', data=json)
    print(r.json())
    
 #df3 = pd.read_excel(xls, "Team Events")

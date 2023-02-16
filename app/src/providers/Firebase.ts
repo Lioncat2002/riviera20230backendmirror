@@ -1,8 +1,8 @@
 import admin from "firebase-admin"
 import dotenv from "dotenv";
 import Log from "../middlewares/Log";
-import EventsModel from "../models/event.model";
-import IEvents from "../interfaces/events"
+import EventsModel_v2 from "../models/event_v2.model";
+import IEvents_v2 from "../interfaces/events_v2"
 
 dotenv.config();
 
@@ -10,12 +10,7 @@ export class Firebase {
     public static init(): void {
         try {
             admin.initializeApp({
-                // credential: admin.credential.cert(process.env.GOOGLE_APPLICATION_CREDENTIALS),
-                credential: admin.credential.cert({
-                    projectId: process.env.PROJECT_ID,
-                    clientEmail: process.env.CLIENT_EMAIL,
-                    privateKey: process.env.PRIVATE_KEY
-                })
+                credential: admin.credential.cert(process.env.GOOGLE_APPLICATION_CREDENTIALS)
             });
             this.scheduleNotifications(parseInt(process.env.INTERVAL)*1000);
         } catch (err) {
@@ -23,10 +18,12 @@ export class Firebase {
         }
     }
     private static async scheduleNotifications(interval: number): Promise<void> {
-        const events = await EventsModel.find();
+        const events = await EventsModel_v2.find();
         for (var i = 0; i < events.length; i++) {
             const event = events[i];
-            const date = new Date(event.start).getTime();
+            if (event.date.length <= 0)
+                continue
+            const date = new Date(event.date[0]["start_timestamp"]).getTime();
             const now = new Date().getTime();
             let diff = date - now;
             if (diff > 0) {
@@ -41,7 +38,7 @@ export class Firebase {
             }
         }
     }
-    private static async sendNotification(event: IEvents, diff: Number): Promise<void> {
+    private static async sendNotification(event: IEvents_v2, diff: Number): Promise<void> {
         let notificationTitle = event.name;
         let notificationDescription = `${notificationTitle} is going to start soon!`;
         if (event.event_type === 'Proshow') {
