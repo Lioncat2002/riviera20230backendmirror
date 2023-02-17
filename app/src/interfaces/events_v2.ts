@@ -8,6 +8,7 @@
 export interface IDate {
     start_timestamp: Date,
     end_timestamp: Date,
+    venue: string
 }
 export interface IEvents_v2 {
     _id: string,
