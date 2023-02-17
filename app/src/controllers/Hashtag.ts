@@ -99,7 +99,7 @@ class Hashtag {
                         whitelisted.push(data[i]);
                     }
                 }
-                await Redis.addEx(0, "hashtag", JSON.stringify(whitelisted), 3600);
+                await Redis.addEx(0, "hashtag", JSON.stringify(whitelisted), 900);
                 return res.send([...new Set(whitelisted)]);
             }
 
