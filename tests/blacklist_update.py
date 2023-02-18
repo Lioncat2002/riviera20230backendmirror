@@ -1,3 +1,4 @@
+#! /usr/bin/python
 import requests
 
 blacklist={
@@ -30,5 +31,5 @@ blacklist={
                   "17963026517057116",
                   ]
 }
-r=requests.post("http://localhost:3000/hashtag/blacklist",data=blacklist)
+r=requests.post("https://riviera.vit.ac.in/api/hashtag/blacklist",data=blacklist)
 print(r.text)
