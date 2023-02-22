@@ -25,7 +25,7 @@ class Hashtag {
                     hashtagId +
                     "/recent_media?user_id=" +
                     user_id +
-                    "&fields=permalink,caption,comments_count,like_count,media_type,media_url,children{media_url}&access_token=" +
+                    "&fields=permalink,caption,comments_count,like_count,media_type,thumbnail_url,media_url,children{media_url}&access_token=" +
                     access_token;
                 return url;
             });
@@ -101,6 +101,11 @@ class Hashtag {
                         else if (data[i].media_type === "CAROUSEL_ALBUM")
                         {
                             data[i].media_url = data[i].children.data[0].media_url;
+                            whitelisted.push(data[i]);
+                        }
+                        else if(data[i].media_type==="VIDEO")
+                        {
+                            data[i].media_url = data[i].thumbnail_url;
                             whitelisted.push(data[i]);
                         }
                     }
