@@ -23,9 +23,9 @@ class Hashtag {
                 const url =
                     "https://graph.facebook.com/" +
                     hashtagId +
-                    "/top_media?user_id=" +
+                    "/recent_media?user_id=" +
                     user_id +
-                    "&fields=permalink,caption,comments_count,like_count,media_type,media_url&access_token=" +
+                    "&fields=permalink,caption,comments_count,like_count,media_type,thumbnail_url,media_url,children{media_url}&access_token=" +
                     access_token;
                 return url;
             });
@@ -96,7 +96,18 @@ class Hashtag {
                 for (let i = 0; i < data.length; i++) {
 
                     if (!blacklist.includes(data[i].id)) {
-                        whitelisted.push(data[i]);
+                        if(data[i].media_type==="IMAGE")
+                            whitelisted.push(data[i]);
+                        else if (data[i].media_type === "CAROUSEL_ALBUM")
+                        {
+                            data[i].media_url = data[i].children.data[0].media_url;
+                            whitelisted.push(data[i]);
+                        }
+                        else if(data[i].media_type==="VIDEO")
+                        {
+                            data[i].media_url = data[i].thumbnail_url;
+                            whitelisted.push(data[i]);
+                        }
                     }
                 }
                 await Redis.addEx(0, "hashtag", JSON.stringify(whitelisted), 900);
