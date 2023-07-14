@@ -4,6 +4,8 @@ FROM node:alpine as builder
 RUN mkdir -p /usr/app/
 WORKDIR /usr/app/
 
+COPY .env /usr/app/
+
 COPY package.json /usr/app/
 RUN yarn install
 
